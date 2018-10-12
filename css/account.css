@@ -1,0 +1,2861 @@
+@font-face{font-family:'robotoregular';src:url('../font_face/Roboto-Regular-webfont.eot');src:url('../font_face/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Regular-webfont.woff') format('woff'),url('../font_face/Roboto-Regular-webfont.ttf') format('truetype'),
+url('Roboto-Regular-webfont.svg#robotoregular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotolight';src:url('../font_face/Roboto-Light-webfont.eot');src:url('../font_face/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Light-webfont.woff') format('woff'),url('../font_face/Roboto-Light-webfont.ttf') format('truetype'),
+url('../font_face/Roboto-Light-webfont.svg#robotolight') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'roboto_condensedlight';src:url('../font_face/RobotoCondensed-Light-webfont.eot');src:url('../font_face/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/RobotoCondensed-Light-webfont.woff') format('woff'),
+url('../font_face/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+url('../font_face/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotoregular';src:url('../font_face/Roboto-Regular-webfont.eot');src:url('../font_face/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Regular-webfont.woff') format('woff'),
+url('../font_face/Roboto-Regular-webfont.ttf') format('truetype'),
+url('Roboto-Regular-webfont.svg#robotoregular') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotomedium';src:url('../font_face/Roboto-Medium-webfont.eot');src:url('../font_face/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Medium-webfont.woff') format('woff'),
+url('../font_face/Roboto-Medium-webfont.ttf') format('truetype'),
+url('../font_face/Roboto-Medium-webfont.svg#robotomedium') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotothin';src:url('../font_face/Roboto-Thin-webfont.eot');src:url('../font_face/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Thin-webfont.woff') format('woff'),
+url('../font_face/Roboto-Thin-webfont.ttf') format('truetype'),
+url('../font_face/Roboto-Thin-webfont.svg#robotothin') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotobold';src:url('../font_face/Roboto-Bold-webfont.eot');src:url('../font_face/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/Roboto-Bold-webfont.woff') format('woff'),
+url('../font_face/Roboto-Bold-webfont.ttf') format('truetype'),url('../font_face/Roboto-Bold-webfont.svg#robotobold') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'robotocondensedregular';src:url('../font_face/RobotoCondensed-Regular-webfont.eot');src:url('../font_face/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font_face/RobotoCondensed-Regular-webfont.woff') format('woff'),
+url('../font_face/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+url('../font_face/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');font-weight:normal;font-style:normal;}
+#main_wrapper{
+	height: auto;
+	background-color:#f9f9f9;
+	min-height: 700px;
+	 font-family: 'robotoregular';
+	 margin-top:5px !important;
+}
+header:before{
+	content: "";
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 140px;
+	background-color: #fff;
+}
+body{
+	background-color: #f9f9f9 !important;
+}
+#main_wrapper:before{
+	content:"";
+	width: 100%;
+	height: 95px;
+	position: absolute;
+	background-color: #fff;
+}
+#main_wrapper #breadcrumbs,#my_account_section_title{
+	margin:0 auto;
+}
+#main_wrapper #breadcrumbs{
+	padding-left: 30px;
+}
+.myacc-fullorders .products-container .downloadable-section {
+	width: 100%;
+}
+#my_account{
+	margin-top:0px;
+}
+#my_account_update_data{
+	display: block;
+}
+.my_account_wrapper {
+	font-family: 'robotoregular',Arial,sans-serif;
+	width: 992px;
+	/*margin: 0 auto;*/
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin-top:73px;
+}
+#my_account_stored_phone_numbers,.my_account_preferences{
+	position: relative;
+	float: left;
+}
+#my_account_update_data #my_account_tree_view{
+	margin-top:-20px;
+
+}
+.track-order-details .product-image{
+
+}
+#main_wrapper section#my_account > section#my_account_content{
+	position: relative;
+	float: left;
+	margin-left: 300px;
+}
+#my_account_tree_view {
+width:300px;
+margin-top:50px;
+position: relative;
+float: left;
+left: 30px;
+height: 32px;
+}
+
+#my_account_content  #maxProfileCreditCardError + #my_account_section_title{
+	top:0px;
+}
+#my_account_content  #maxProfileCreditCardError + #my_account_section_title + table{
+	margin-top:70px;
+}
+#my_account_content{
+	position: relative;
+	float: left;
+	top:0px;
+	width: 73%;
+	left:30px;
+
+}
+/*tarjetas de credito seccion*/
+/*mis pedidos*/
+.track-orders{
+	margin-left: 300px;
+}
+.myacc-buscador form{
+	position: absolute;
+	right: 0px;
+	top:3px;
+	width: 410px !important;
+	top:-72px;
+
+}
+.myacc-buscador form #find-orders{
+	height: 32px;
+}
+
+.search-pagination .myacc-buscador form .or_submit{
+		width: 100px;
+		text-transform: none ;
+		display: inline-block;
+		background: #E10098;
+		border: none;
+		color:#fff;
+		height: 40px;
+		font-size: 14px;
+		margin-left: 3px;
+		padding:4px 0px;
+}
+#my_account_tree_view_options .actual-section:after{
+	content:"";
+	position: absolute;
+	left: -3px;
+	width:6px;
+	height: 6px;
+	top:6px;
+	border-left:solid 1px;
+	border-top:solid 1px;
+	background-color: #fff;
+	    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Safari 3-8 */
+    transform: rotate(135deg);
+}
+#my_account_tree_view_options .actual-section{
+  font-weight: bold;
+  padding-left: 10px;
+  position: relative;
+}
+/*mis pedidos guest*/
+#breadcrumbs + #my_account_content.track-orders .myacc-ayuda-pedidos p{
+	margin-top:3px;
+}
+#breadcrumbs + #my_account_content.track-orders{
+margin: 99px auto 0px auto;
+width: 98%;
+box-sizing: border-box;
+padding: 10px;
+}
+#breadcrumbs + #my_account_content.track-orders .myacc-header{
+	left: 0px;
+}
+#breadcrumbs + #my_account_content.track-progressbar .myacc-header{
+	top:-95px;
+}
+#breadcrumbs + #my_account_content.track-orders .btn_anadir_bolsa{
+	padding: 12px 0px;
+}
+/*mis pedidos guest*/
+/*mis pedidos*/
+#my_account_content table td .my_account_module_content{
+  width: 370px;
+  height: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  vertical-align: top;
+  box-sizing:border-box;
+  padding: 20px;
+  margin-left:15px;
+}
+
+#my_account_content table td .my_account_module_content .my_account_module_content_title{
+	font-size:20px;
+	font-weight: bold;
+	color:#3b3b3b;
+}
+#my_account_content table td .my_account_module_content .my_account_module_content_title > span{
+	font-size: 14px;
+	color:#767676;
+	font-weight: normal;
+}
+#my_account_content table td .my_account_module_content .my_account_module_content_info{
+	margin-top:16px;
+	font-size: 13px;
+	color:#4a4a4a;
+}
+#my_account_content table td .my_account_module_content .my_account_module_content_info label{
+	margin-top:15px;
+}
+.my_account_content_buttons .edit_button, .my_account_content_buttons .delete_button{
+	width: 150px;
+	height: 40px;
+	font-size: 16px;
+}
+.my_account_content_buttons .delete_button{
+	margin-bottom: 15px;
+	width: 150px;
+	background-color: #f2f2f2;
+	border:solid 1px #d8d8d8;
+	color:#666;
+	margin-right: 15px;
+}
+
+#micuenta_content #my_account_content > #my_account_section_title{
+	position: absolute;
+	top:-80px;
+	left:-300px;
+	width: 1400px;
+	font-size: 28px;
+    color: #3b3b3b;
+    padding: 20px 0px 10px 0px;	
+}
+#my_account_section_title > p{
+	font-size: 28px;
+    color: #3b3b3b;
+    padding: 7px 0px 10px 0px;
+}
+section#my_account_content .myacc-header,section#my_account_content #my_account_section_title,section#my_account > section#my_account_content #my_account_section_title {
+	position: absolute;
+    top: -103px;
+    left: -300px;
+    width: 900px;
+    font-size: 28px;
+    color: #3b3b3b;
+    padding: 20px 0px 10px 0px;
+    font-weight: normal;
+}
+section#my_account_update_data section#my_account_content #my_account_section_title{
+	top:-80px;
+}
+section#my_account_content #my_account_section_title{
+	top:-80px;
+}
+section#my_account > section#my_account_content #my_account_section_title{
+	top:-94px;
+}
+section#my_account_content.track-progressbar .myacc-header{
+	top:-100px;
+}
+section#my_account_content.track-order-details h1.myacc-header{
+	text-transform: lowercase;
+}
+section#my_account_content.track-order-details h1.myacc-header:first-letter{
+	text-transform: uppercase;
+}
+/*tarjetas de credito seccion*/
+/*teléfonos guardados*/
+#table_sotred_phone_numbers{
+	background-color: #fff;
+	box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+}
+#table_sotred_phone_numbers tbody tr:first-child td{
+	font-size: 10px;
+	color:#444;
+}
+#table_sotred_phone_numbers tbody tr:last-child td{
+	padding: 12px 12px 40px 12px;
+}
+#table_sotred_phone_numbers tbody tr td{
+	padding: 12px;
+	font-size: 14px;
+	color:#3b3b3b;
+}
+#my_account_stored_phone_numbers #my_account_section_title > p > span >a{
+	position: absolute;
+	top:25px;
+	right: 180px;
+}
+#my_account_stored_phone_numbers #my_account_section_title > p > span >a .accept_button{
+	width: 243px;
+	height: 40px;
+	font-size: 16px;	
+}
+
+/*telÃ©fonos guardadas*/
+/*detalles*/
+.track-orders-cie{
+	margin-left: 300px;
+}
+/*detalles*/
+/*mis pedidos*/
+#my_account #my_account_content{
+	top:10px;
+	padding-right: 5px;
+}
+.myacc-ayuda-pedidos span{
+	display: none;
+}
+/*mis pedidos*/
+
+ul#my_account_tree_view_options {
+position: relative;
+}
+ul#my_account_tree_view_options{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:column;
+    -webkit-flex-direction: column;
+    
+	
+}
+ul#my_account_tree_view_options li{
+	font-size:14px;
+	position: absolute;
+	
+}
+ul#my_account_tree_view_options li a{
+font-family: 'robotoregular';	
+}
+
+ul#my_account_tree_view_options li a:hover{
+	text-decoration: underline !important;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(6){
+	/*mis pedidos*/
+  	font-size: 18px;
+	padding: 12px 23px;
+	position: absolute;
+	top:40px;
+	width: 270px;
+	background-color: #ffffff;
+  	box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+  	box-sizing:border-box;
+  	color:#4a4a4a;
+  	position: absolute;
+
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(7){
+    height: 90px;
+    width: 260px;
+    left:0px;
+    padding-right:5px;
+    padding-left:5px;
+  	padding-top:60px;
+	background-color: #ffffff;
+	box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+    
+	top:100px;
+	position: absolute;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(7):before{
+	/*facturacion electronica*/
+	content:"Crédito y Pagos";
+	width: 260px;
+	font-size: 18px;
+	padding: 12px 18px;
+	position: absolute;
+	box-sizing:border-box;
+	color:#4a4a4a;
+	top:0px;
+	z-index:1;
+	border-bottom: solid 1px #dcdcdc;
+	font-family: 'robotoregular';
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(7) a{
+	padding-left: 40px;	
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(2){
+	/*tarjetas de credito*/
+	top:182px;
+	left:45px;
+	z-index: 2;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(10){
+	/*efectivo y transferencias*/
+	top:204px;
+	left:45px;
+	z-index: 2;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(9){
+	/*mis descargas*/
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(1){
+	height: 115px;
+    width: 260px;
+    padding-left:5px;
+    padding-right:5px;
+  	padding-top:55px;
+	background-color: #ffffff;
+	top:270px;
+  	box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+  	position: absolute;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(1):before{
+	/*actualizar datos personales*/
+	content:"Datos de mi cuenta";
+	width: 260px;
+	font-size: 18px;
+	padding: 12px 18px;
+	position: absolute;
+	box-sizing:border-box;
+	color:#4a4a4a;
+	top:0px;
+	border-bottom: solid 1px #dcdcdc;
+	font-family: 'robotoregular';
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(1) a{
+	margin-left: 40px;	
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(5){
+	/*cambiar contraseña*/
+	top:347px;
+	left:45px;
+	z-index: 2;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(4){
+	/*dirección de entrega*/
+	top:369px;
+	left:45px;
+	z-index: 2;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(8){
+	/*telefonos celulares*/
+	top:391px;
+	left:45px;
+	z-index: 2;
+}
+#my_account_tree_view  #my_account_tree_view_options > li:nth-child(3){
+	/*preferencias de comunicaciÃ³n*/
+	top:412px;
+	left:45px;
+	z-index: 2;
+}
+
+ul#my_account_tree_view_options li.active a{color: #E73E97!important;}
+
+.submenu_active a{
+color:#C81685;
+}
+
+.my_account_module_content {
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+#my_account_content .my_account_module_content p.caveat{
+		font-size: 13px;
+		font-family: 'robotoregular', Arial, sans-serif;
+		color: #000000;
+		padding-bottom: 12px;
+}
+
+#my_account_preferences > #my_account_content,
+#my_account_preferences > .my_account_content2 {
+		width: 800px;
+		min-height: 600px;
+
+}
+#my_account_preferences > #my_account_content > form{
+	background-color: #ffffff;
+    box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+    padding: 20px;
+    margin-top:10px;
+
+}
+#my_account_preferences > #my_account_content > form >.my_account_content_buttons{
+	padding:0px;
+	width: 100%;
+}
+#my_account_preferences > #my_account_content > form >.my_account_content_buttons > .cancel_button,#my_account_preferences > #my_account_content > form >.my_account_content_buttons > .accept_button,#my_account_content_notifications .my_account_content_buttons .accept_button,#my_account_content_notifications .my_account_content_buttons .cancel_button{
+	font-size:18px;
+	width: 180px;
+	padding: 12px 0px;
+	margin:10px 30px 0px 0px;
+}
+#my_account_preferences > #my_account_content > form >.my_account_content_buttons > .accept_button,#my_account_content_notifications .my_account_content_buttons .accept_button{
+background-color: #E10098;
+height: 45px;
+}
+#my_account_content_notifications .my_account_content_buttons{
+	padding:10px 0px;
+}
+#my_account_preferences > #my_account_content > .my_account_module_content_title{
+	height: 40px;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.my_account_module_content h1{
+color: #414141;
+font-size: 16px;
+font-weight: bold;
+}
+.my_account_module_content select{
+border: 1px solid #fff;
+border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+padding: 0px;
+height: 40px;
+width: 397px;
+margin-left:0px;
+margin-top:20px;
+font-size: 16px;
+}
+
+#my_account_preferences .my_account_module_content { width: 250px; margin: 0 10px; }
+#my_account_preferences form {
+	padding: 20px 0;
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+	width: 700px;
+}
+#my_account_preferences .my_account_module_content span { height: 30px; display: block;}
+#my_account_preferences .my_account_module_content input { float: left;}
+#my_account_preferences .my_account_module_content label { font-size: 14px; margin-left: 22px; line-height: 15px;}
+
+#my_account_order_status .my_account_module_content,
+#my_account_stored_phone_numbers .my_account_module_content,
+#my_account_update_data .my_account_module_content,
+#my_account_add_phone .my_account_module_content,
+#my_account_invoice_consulting .my_account_module_content,
+#my_account_billing .my_account_module_content,
+#my_account_change_password .my_account_module_content,
+#my_account_welcome_billing .my_account_module_content { width: 100%;}
+
+#my_account_content .required_fields,
+.my_account_content .required_fields { position: absolute; top:30px; left:315px; z-index:2; font-size:12px; color:#d0011b; width: 150px;}
+#maternoRequired ~ #my_account_update_data #my_account_content .required_fields { position: absolute; top:94px; left:315px; z-index:2; font-size:12px; color:#d0011b; width: 150px;}
+.adjust_left_label input {
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+height: 35px;
+
+}
+.streetstyle{
+	font-size: 11px !important;
+	position: absolute;
+    top: 70px;
+    left: 0px;
+    padding:0 !important;
+
+}
+fieldset.my_account_delivery_adress input,
+fieldset.my_account_short_name input,
+fieldset.my_account_add_adressee input, 
+#add_phone_form .adjust_left_label input{
+border: 1px solid #CCC;
+padding: 3px;
+
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+font-size: 16px;
+height: 35px !important;
+width: 390px !important;
+}
+fieldset.my_account_delivery_adress select,
+fieldset.my_account_delivery_adress input,
+fieldset.my_account_short_name input,
+fieldset.my_account_add_adressee input{
+	margin-top:20px;
+}
+#add_phone_form input.error {
+background: none repeat scroll 0 0 #FEFFE1;
+border: 1px solid #FFBA91;
+}
+
+#my_account_invoice_consulting p.adjust_left_label { padding-bottom: 5px;}
+#my_account_invoice_consulting p.adjust_left_label input.rfc_data { width: 88px;border: 1px solid #CCCCCC; border-radius: 0 0 0 0;box-shadow: none; height: 28px;}
+#my_account_invoice_consulting p.adjust_left_label input.rfc_data:nth-child(3) { width: 100px;}
+#my_account_born_day { margin-top:30px;width: 54px; border: 1px solid #CCC; margin-right: 5px; padding:3px 0px;}
+#my_account_born_month { margin-top:30px;width: 115px; border: 1px solid #CCC;
+padding: 3px; margin-right: 5px;
+}
+#my_account_born_year { margin-top:30px;width: 70px; border: 1px solid #CCC;
+padding: 3px; margin-right: 5px;
+}
+#my_account_company { width: 100px; border: 1px solid #CCC; padding: 3px; margin-right: 5px; }
+#my_account_amount { width: 100px; border: 1px solid #CCC; padding: 3px; margin-right: 5px; }
+#add_phone_form { padding-top: 10px; position: relative;}
+
+#my_account_change_password .adjust_left_label { padding-bottom: 5px;}
+#change_password_form { padding: 20px 0;}
+#my_account_billing label {
+		padding: 10px 0;
+		display: block;
+		width: 250px;
+		clear: both;
+
+}
+#my_account_active_user_email { padding-bottom: 10px; display: none;/*new*/}
+#my_account_active_user_email label { width: 156px; float: left;}
+#my_account_active_user_email span { position: relative;}
+
+.my_account_legal_terms { padding: 10px 0;}
+.my_account_module_content_info > ul > li {
+margin: 10px 0px;
+}
+
+#my_account  .my_account_module_content > .my_account_module_content_info {
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+    padding: 15px;
+    margin-top:15px; 
+}
+#my_account_update_data .my_account_module_content .my_account_module_content_info,#my_account_change_password .my_account_module_content > .my_account_module_content_info,.required_fields + .my_account_module_content > .my_account_module_content_info,.required_fields + .my_account_module_content_info{
+    width: 455px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 7px 0 rgba(205, 205, 205, 0.5);
+    position: absolute;	
+}
+
+#my_account_update_data .my_account_module_content .my_account_module_content_info{
+	margin-top:15px;
+	height: auto;
+	min-height: auto;
+	overflow: hidden;
+}
+.required_fields + .my_account_module_content > .my_account_module_content_info{
+	padding-top: 25px;
+}
+.required_fields + .my_account_module_content_info{
+	min-height: 1800px;
+	position: relative !important;
+	
+}
+#my_account_add_delivery_adress h1{
+	/*margin-left: 15px;*//*new*/
+}
+p.legend_terms_conditions {
+font-weight: bold;
+font-family: "robotolight", arial, sans-serif;
+margin: 10px 0px;
+}
+
+p.legend_terms_conditions a{
+		color:#e10098;
+}
+.my_account_module_content_info #my_account_add_card p input,
+.my_account_module_content_info #my_account_edit_card p input,
+.my_account_module_content_info #my_account_add_delivery_adress p input,
+.my_account_module_content_info #my_account_edit_delivery_adress p input
+{
+width:390px !important;
+height: 35px;
+font-size:16px;
+}
+
+.my_account_module_content_info #my_account_add_card p select,
+.my_account_module_content_info #my_account_edit_card p select,
+.my_account_module_content_info #my_account_add_delivery_adress p select,
+.my_account_module_content_info #my_account_edit_delivery_adress p select
+{
+width:397px;
+font-size: 16px;
+}
+#my_account_update_data #my_account_content .my_account_content_buttons .cancel_button,
+#my_account_update_data #my_account_content .my_account_content_buttons .save_form_button,
+#micuenta_content #my_account_content .my_account_content_buttons .cancel_button,
+#micuenta_content #my_account_content .my_account_content_buttons .accept_button,
+#my_account_change_password #my_account_content .my_account_content_buttons .cancel_button,
+#my_account_change_password #my_account_content .my_account_content_buttons .accept_button{
+	width:150px;
+	font-size:18px;
+
+}
+.my_account_content_buttons .accept_button,#my_account_update_data #my_account_content .my_account_content_buttons .save_form_button,#micuenta_content #my_account_content .my_account_content_buttons .accept_button,#my_account_change_password #my_account_content .my_account_content_buttons .accept_button{
+	background-color: #e70095 !important;	
+	height: 40px !important;
+	right: 0px;
+}
+
+.my_account_content_buttons {
+		padding: 10px 0px;
+		display: block;
+		float: left;
+		width: 100%;
+}
+.my_account_module_content .legendi{
+	padding-top: 10px;
+		font-size: 16px;
+		padding-bottom: 15px;
+}
+
+.my_account_content_buttons > form > input#editar_button {
+		position: static;
+		float: right;
+		margin: 0px 0px;
+		width: 150px;
+		font-size: 16px;
+		background-color: #3b3b3b !important;
+}
+
+
+.my_account_content_buttons .accept_button, input.accept_button.consultar{
+		width: 180px;
+		background: #3B3B3E;
+		font-size: 20px;
+		display: inline-block;
+		font-family: 'robotocondensedregular', sans-serif;
+		position: relative;
+		vertical-align: top;
+		border: 0px;
+		color: #fff;
+		left:0px !important;
+		margin-left: 0px !important;
+}
+.my_account_module_content_info label {
+	font-size: 14px;
+	color:#b3b3b3;
+}
+.label.otherColony_align{
+		width: 175px!important;
+}
+.my_account_module_content_info p {
+font-size: 14px;
+	color:#444;
+margin: 5px 0;
+}
+.my_account_module_content_info p.tel { width: 98px;}
+
+p.rfc{font-size: 11px; font-weight: bold; display: inline-block;margin-left: 5px;}
+
+.my_account_module_content_info span.direccion{
+line-height: normal;
+display: inline-block;
+padding: 5px 0px;
+vertical-align: middle;}
+
+.my_account_module_content_info span.envio_correo {
+line-height: normal;
+display: inline-block;
+padding: 5px 0px;
+vertical-align: middle;
+margin: 0px 0px 0px 5px;
+}
+#my_account_content input[type=text].envio_fac {
+display: block;
+clear: both;
+}
+
+.clear-contents{
+clear: both;
+border: none;
+}
+
+.my_account_confirm_order_table{
+width: 100%;
+border: 1px solid #CCC;
+margin: 15px 0px;
+}
+
+.my_account_confirm_order_table tr{
+border-top:1px solid #ccc;
+}
+.my_account_confirm_order_table th{
+color: #e10098;
+font-size: 13px;
+padding: 7px 0 0 15px;
+}
+.my_account_subtotal_confirm_order_table th{
+color: #e10098;
+font-size: 13px;
+padding: 7px 0 0 17px;
+white-space: nowrap;
+}
+.my_account_subtotal_confirm_order_table tr td{
+font-size: 12px;
+padding: 7px 0 0 15px;
+width:25%;
+}
+.my_account_confirm_order_table tr td{
+font-size: 12px;
+padding: 7px 0 0 15px;
+}
+
+#my_account_content .my_account_module_content #my_account_add_card label,
+#my_account_content .my_account_module_content #my_account_edit_card label,
+#my_account_content .my_account_module_content #my_account_add_delivery_adress label,
+#my_account_content .my_account_module_content #my_account_edit_delivery_adress label{
+width: 200px;
+}
+
+#my_account_content input[type=text], input#tipoRFC{
+border: 1px solid #fff;
+border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+padding: 3px;
+width: 290px !important;
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+margin-top:20px;
+margin-right: 2px;
+font-size: 14px;
+}
+
+#my_account_content input[type=password]{
+border: 1px solid #fff;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+    padding: 3px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-right: 2px;
+        font-size: 16px;
+    height: 35px;
+    width: 390px;
+    margin-top:20px;
+}
+fieldset.my_account_add_card_adress 
+#table_order_status{
+width:100%;
+}
+
+#table_order_status th{
+font-size: 13px;
+color: rgb(117, 117, 117);
+text-align:center;
+}
+
+
+#table_order_status input{
+border:none;
+background:none;
+cursor:pointer;
+color:#E10098;
+font-size:11px;
+}
+
+#table_order_status tr:first-child{
+border-bottom:2px solid #EEE;
+}
+
+#table_order_status tr:nth-child(2n+3){
+width:100%;
+background:#EEE;
+}
+
+#table_order_status tr td{
+padding:6px 2px;
+text-transform:uppercase;
+}
+
+#my_account_module_content_left{
+margin: 5px;
+width: 370px;
+position: relative;
+float: left;
+}
+
+#my_account_module_content_right{
+
+margin: 5px;
+width: 370px;
+position: relative;
+float: left;
+}
+
+.my_account___module_content_info label {
+font-size: 11px;
+text-transform: capitalize;
+color: #757575;
+}
+
+.my_account___module_content_info p {
+font-size: 14px;
+margin: 5px 0;
+}
+
+#my_account___sex {
+font-size: 12px;
+color: #757575;
+width: 200px;
+display: inline-block;
+position: relative;
+left: 70px;
+}
+#my_account___sex span{
+vertical-align: middle;
+padding: 4px 0 0 0;
+display: inline-block;
+}
+
+#__last_name_ {
+border: 1px solid #CCC;
+padding: 3px;
+width: 260px;
+}
+#__last_name {
+border: 1px solid #CCC;
+padding: 3px;
+width: 260px;
+}
+#__name {
+border: 1px solid #CCC;
+padding: 3px;
+width: 260px;
+}
+.add_to_cart_button{
+background-color: #E10098;
+border: none;
+padding: 5px 10px;
+color: #FFF;
+cursor:pointer;
+font-size: 14px;
+}
+
+
+.gift_button{
+background-color: #E10098;
+border: none;
+padding: 5px 18px;
+color: #FFF;
+cursor:pointer;
+font-size: 14px;
+}
+
+
+.edit_button,
+.accept_button {
+		padding: 7px!important;
+		width: 100%;/*new*/
+		background: #3B3B3E;
+		font-size: 18px;
+		display: inline-block;
+		font-family: 'robotocondensedregular', sans-serif;
+		position: relative;
+		vertical-align: top;
+		border: 0;
+		color: #fff;
+}
+.edit_button:hover,
+.accept_button:hover {
+		background:#2f2f2f;
+}
+
+#my_account_add_delivery_adress > div > div.invoice_btn_continue > input.accept_button.custom_margin {
+		font-size: 15px;
+		text-align: center;
+		font-family: 'robotocondensedregular', sans-serif;
+}
+
+
+.continue_button{
+		background-color: #3B3B3E;
+		border: none;
+		color: #FFF;
+		cursor: pointer;
+		font-size: 18px;
+		font-family: 'robotocondensedregular', sans-serif;
+		padding: 8px 25px;
+}
+
+.back_button{
+		background-color: #3B3B3E;
+		border: none;
+		color: #FFF;
+		cursor: pointer;
+		font-size: 18px;
+		font-family: 'robotocondensedregular', sans-serif;
+		padding: 8px 25px;
+}
+
+
+.cancel_button {
+		background-color: #81898b;
+		border: none;
+		color: #FFF;
+		cursor: pointer;
+		font-size: 18px;
+		width: 120px;
+		height: 18px;
+		display: inline-block;
+		padding: 11px 0px;
+		text-align: center;
+		margin-right: 15px;
+		font-family: 'robotocondensedregular', sans-serif;
+}
+.cancel_button:hover {
+		background:#73787A;
+}
+.delete_button {
+		background-color: #fff;
+		color: #333;
+		cursor: pointer;
+		border: 1px solid #333;
+}
+
+
+.my_account___content_buttons {
+text-align: right;
+margin: 10px 0;
+}
+#my_account___born {
+text-align: right;
+position: relative;
+right: 5px;
+}
+
+.my_account_module_content_actions{
+margin:25px 0px;
+}
+
+#table_sotred_phone_numbers{
+	width: 900px;
+}
+
+#table_sotred_phone_numbers input{
+border:none;
+background:none;
+cursor:pointer;
+color: #FFFFFF !important;
+font-size:10px !important;
+text-transform: uppercase;
+margin-top: -2px;
+}
+
+#table_sotred_phone_numbers tr:first-child{
+border-bottom:1px solid #f2f2f2;
+}
+
+#table_sotred_phone_numbers tr:nth-child(2n+3){
+width:100%;
+background:#EEE;
+}
+
+#my_account_section_subtitle{
+font-size:14px;
+margin: 5px 10px;
+}
+
+.my_account_module_content_info tr td {
+font-size: 11px;
+text-transform: capitalize;
+color: #757575;
+
+}
+
+.button_gray{
+background:#F3F3F3;
+border:1px solid #E8E8E8;
+padding:5px 15px;
+}
+
+.button_gray_pag{
+background:#F3F3F3;
+border:1px solid #E8E8E8;
+padding:5px 10px;
+}
+
+/* ajustes order_status */
+.my_account_order_status_section_subtitle{
+font-size:14px;
+margin: 20px 10px;
+}
+
+.consultar_compra{
+margin:5px 0px;
+}
+
+.version_imprimir{
+font-size:12px;
+text-decoration:underline;
+color:#E10098;
+float:right;
+margin-top:45px;
+}
+
+.ayuda_{
+margin:0px 5px;
+padding:0px 5px;
+}
+a.ayuda{
+	 margin-left: 10px;
+}
+.accept_button .consultar_{
+display:block;
+margin-bottom:15px;
+margin-left: 0;
+}
+
+#table_sotred_phone_numbers .delete_button,
+#table_sotred_phone_numbers .edit_button{
+		font-size: 11px;
+		width: 67px;
+		display: block;
+		padding: 8px 10px!important;
+		bottom: 1px;
+		color: #fff;
+		text-align: center;
+}
+
+#add_card.accept_button {
+		font-size: 14px;
+		margin: 0px 20px;
+		background: none;
+		border: 1px solid #000000;
+		color: #3B3B3E;
+		padding: 10px!important;
+		width: 180px;
+		text-align: center;
+		font-family: 'robotoregular', sans-serif;
+}
+.info_left{
+float: left;
+}
+.info_right{
+float:right;
+}
+.my_account_module_content_especial{
+float: left;
+margin: 10px;
+width:250px;
+}
+
+.pagination{
+float: right;
+}
+
+.price_total_order_confirm{
+margin-left:515px;
+}
+
+.total_order_confirm tr:first-child{
+border: 1px solid #FAFAFA;
+border-bottom: none;
+}
+
+.total_order_confirm tr:first-child td.shipping_label{
+font-size: 14px;
+padding: 5px;
+}
+
+.my_account_add_phone_content_buttons{
+margin-top: 30px;
+}
+
+.congrats_msj{
+padding: 10px 15px 10px 0px;
+text-align: center;
+}
+
+.congrats_msj_title{
+color:#e10098;
+font-weight: bold;
+padding-bottom: 5px;
+font-size: 13px;
+}
+
+ul#my_account_tree_view_options ul.my_account_tree_view_options_submenu li{
+border:none;
+}
+
+ul#my_account_tree_view_options ul.my_account_tree_view_options_submenu li a{
+margin-left:20px;
+}
+
+
+ul#my_account_tree_view_options ul.my_account_tree_view_options_submenu li:first-child{
+border-top:1px dotted #CCC;
+border-bottom:1px dotted #CCC;
+padding:12px 0px 4px 0px;
+background-position: 197px 15px;
+}
+
+ul#my_account_tree_view_options ul.my_account_tree_view_options_submenu li:nth-child(2){
+margin:0px;
+}
+
+.my_account_link{
+font-size:12px;
+text-decoration:underline;
+color:#E10098;
+float:right;
+}
+
+.my_account_link_{
+font-size:12px;
+text-decoration:underline;
+color:#E10098;
+margin:0px;
+}
+
+.my_account_confirm_order_table span.gift_label{
+color: rgb(255, 0, 152);
+font-size: 13px;
+font-weight: bold;
+padding: 0px 10px 0px 0px;
+}
+
+.my_account_confirm_order_table span.gift_label info{
+
+}
+
+
+.my_account_downloads_ebooks_section_title {
+border-bottom:1px solid #CCC;
+padding: 0px 0px 10px;
+}
+
+.my_account_downloads_ebooks_module_content{
+margin: 0px 0px 150px;
+}
+
+.my_account_downloads_ebooks_section_paragraph {
+border-bottom:1px solid #CCC;
+padding: 0px 0px 10px;
+font-size: 14px;
+margin: 15px 0px;
+}
+.my_account_downloads_ebooks_module_content_info .img_ebook{
+margin:20px 0px;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook img{
+height:166px;
+width:112px;
+border:1px solid #CCC;
+float:left;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook{
+width: 577px;
+float: right;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr:nth-child(even) td:first-child,
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr:nth-child(even) td:nth-child(2){
+background:#EBEBEB;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr td:first-child{
+font-weight:bold;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr td:nth-child(2){
+font-family: robotolight;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr td{
+height:38px;
+width: 144px;
+font-size:13px;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr:first-child td:last-child,
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks .table_ebook tr:nth-child(2) td:last-child{
+text-align:right;
+}
+
+.my_account_downloads_ebooks_section_title{
+font-size:18px;
+
+}
+
+.my_account_downloads_ebooks_module_content_info{
+padding-bottom:40px;
+}
+
+.my_account_downloads_ebooks_module_content_info .img_ebook .info_ebooks input.download_button{
+background-color: #81898B;
+border: none;
+padding: 5px 10px;
+color: #FFF;
+cursor:pointer;
+font-size: 14px;
+}
+
+.required_symbol{
+	color:#d0011b;
+}
+
+.Delete_right{
+cursor: pointer;
+font-size: 14px;
+margin: 0px 5px;
+}
+
+.Delete_right a{
+cursor:pointer;
+font-size:14px;
+margin:0px 5px;
+}
+
+.Delete_right a:hover{
+background:#E9E9E9;
+}
+
+.pag_active{
+background:#E9E9E9;
+}
+
+.cfacturacion{
+display:inline;
+}
+
+#purchase_details .my_account_module_content_title{
+margin: 20px 0px 0px;
+}
+
+#purchase_details .my_account_module_content_title,
+#purchase_details .cfacturacion{
+padding-left: 5px;
+}
+
+#purchase_details .cfacturacion span{
+font-size:14px;
+margin: 0px 0px 0px 10px;
+color:#000000;
+}
+
+#purchase_details p.cfacturacion{
+font-size: 11px;
+text-transform: capitalize;
+color: rgb(117, 117, 117);
+}
+
+.my_account_subtotal_confirm_order_table tr .total_adj{
+width: auto;
+text-align: right;
+white-space: nowrap;
+}
+
+.my_account_subtotal_confirm_order_table{
+margin-bottom:30px;
+}
+
+.my_accountlink{
+font-size:12px;
+text-decoration:underline;
+color:#E10098;
+position: absolute;
+margin: 0;
+
+position: absolute;
+right: 280px;
+top: 60px;
+}
+
+.adjust_left_label_legend {
+font-size: 12px;
+position: relative;
+bottom: 5px;
+color: #757575;
+margin-bottom:10px;
+}
+
+
+.my_account_module_content p.adjust_left_label label{
+width: 155px;
+color: #757575;
+
+margin:10px 30px 0px 0px;
+font-size: 11px;
+}
+.my_account_module_content p.adjust_left_label label:first-child{
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+.my_account_module_content p.adjust_left_label{
+
+position: relative;
+width: 300px;
+}
+form[action="/tienda/users/updateProfile.jsp?_DARGS=/tienda/users/frag/updateProfileForm.jsp"] .adjust_left_label:nth-child(8){
+    margin-top:25px;
+}
+form[action="/tienda/users/updateProfile.jsp?_DARGS=/tienda/users/frag/updateProfileForm.jsp"] .adjust_left_label:nth-child(8) > label{
+margin-top:-10px;
+}
+.my_account_terms{
+font-size:12px;
+text-decoration:underline;
+color:#E10098;
+}
+#gender{
+	margin-right: 15px;
+}
+
+#my_account_add_card .my_account_add_card_adress .entCalles label.yca_adj,
+#my_account_edit_card .my_account_add_card_adress .entCalles label.yca_adj,
+#my_account_add_delivery_adress .my_account_delivery_adress .entCalles label.yca_adj,
+#my_account_edit_delivery_adress .my_account_delivery_adress .entCalles label.yca_adj{
+width: 42px !important;
+}
+
+#my_account_add_card .my_account_add_card_adress .tels input#lada,
+#my_account_add_card .my_account_add_card_adress .tels input#ofLada,
+#my_account_edit_card .my_account_add_card_adress .tels input#lada,
+#my_account_edit_card .my_account_add_card_adress .tels input#ofLada,
+.edit_address_fields .my_account_delivery_adress input#lada,
+.edit_address_fields .my_account_delivery_adress input#ofLada,
+#my_account_add_delivery_adress .my_account_delivery_adress .tels input#lada,
+#my_account_add_delivery_adress .my_account_delivery_adress .tels input#ofLada,
+#my_account_edit_delivery_adress .my_account_delivery_adress .tels input#lada,
+#my_account_edit_delivery_adress .my_account_delivery_adress .tels input#ofLada{
+width:100px !important;
+display: inline-block;
+}
+
+.my_account_module_content_info #my_account_edit_card fieldset,
+.my_account_module_content_info #my_account_add_delivery_adress fieldset,
+.my_account_module_content_info #my_account_edit_delivery_adress fieldset{
+margin:0px 0px 20px 0px;
+}
+
+#my_account_add_card .my_account_add_card_tarjeta .my_account_notes{
+font-size: 12px;
+margin-left: 30px;
+color: #999;
+}
+
+.select_adress_page_notes, .selectCard_left{
+font-size: 13px;
+color: #333;
+margin:10px 5px;
+}
+.selectCard_left ~ .my_account_content_buttons{
+	margin-left: 0px;
+}
+.date_data{
+display: inline-block;
+width: 102px !important;
+}
+.special_width_label{
+width: 50px !important;
+}
+.invoice_radio_date {
+display: inline-block;
+float: left;
+padding: 0 0 10px 15px;
+position: relative;
+left: 10px;
+bottom: 1px;
+}
+.select_invoice_page input.accept_button.consultar_ {
+position: relative;
+top: 15px;
+left: 680px;
+}
+
+.sexo_{
+display:inline;
+}
+
+.sexo_ span{
+margin:0px 15px 0px 0px;
+}
+
+.sexo_ input{
+
+}
+
+.my_account_module_content_info p label.rfc_width{
+width:60px;
+}
+
+#add_phone_form label{
+width:100px;
+}
+
+.tels #ofTelephone.tel_nromal,.tels #telephone.tel_nromal{
+width:260px !important;
+position: absolute;
+top: 0px;
+left: 130px;
+
+}
+
+
+.telephoneerror input#telephone {
+		width: 140px!important;
+}
+.telephoneerror #telephone_label{
+	margin-top:5px;
+}
+#telephone_label.error{
+	position: absolute;
+	top:63px;
+	left: 130px;
+}
+.my_account_confirm_order_table tr th.confirm_order_adj{
+width:80px;
+}
+
+.my_account_confirm_order_table tr th.product_photo{
+width:60px;
+}
+
+.my_account_confirm_order_table tr th.confirm_order_total{
+width:80px;
+}
+
+.my_account_confirm_order_table tr th.confirm_order_priceU{
+width:106px;
+}
+
+.chck-img{
+width: 100%;
+}
+
+.accept_terms{
+width:15px !important;
+}
+
+.req_phone{
+width:600px;
+
+margin-left: 30px;
+margin-top:0px;
+color: #d0011b;
+font-size:12px;
+display: block;
+}
+#my_account_content.registered_adresses .invoice_pred_adress{
+margin:10px 0px;
+}
+
+#my_account_content.registered_adresses .invoice_pred_adress span{
+color: #757575;
+font-size: 13px;
+}
+
+#my_account_content .aviso_uso_direccion{
+font-size:14px;
+margin:10px 0px;
+}
+
+p.adjust_left_label #rfc3, p.adjust_left_label #rfc1 {
+text-transform: uppercase;
+}
+.rfc_data{
+width: 72px;
+border: 1px solid #CCCCCC;
+border-radius: 0 0 0 0;
+box-shadow: none;
+height: 22px;
+-webkit-border-radius: 0;
+border-radius: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.am_date_data{
+display: inline-block;
+height: 29px !important;
+margin-top: 3px;
+width: 104px !important;
+}
+table#table_sotred_phone_numbers tr td .delete_button {
+background-color: #81898B;
+border: none;
+color: #FFF;
+cursor:pointer;
+font-size: 19px;
+width: 80px;
+height: 27px;
+}
+.back_account {
+position: relative;
+top: 16px;
+left: 500px;
+padding: 5.5px;
+}
+#update_personal_data #my_account_born_day + label.error,
+#update_personal_data #my_account_born_month + label.error
+{
+display:none !important;
+}
+
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:first-child,
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:nth-child(2),
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:nth-child(3){
+width: 115px;
+}
+
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:nth-child(4),
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:nth-child(5){
+width:60px;
+}
+
+#my_account_order_status.my_account_wrapper.cie_bbv #table_order_status tr td:last-child{
+width:95px;
+}
+#my_account_content label.error, #register_credit_form label.error,#my_account_content .adjust_left_label label.error{
+color: #d0011b!important;
+font-size: 11px;
+text-transform: none;
+display: block;
+padding: 0px !important;
+width: 300px !important;
+}
+.catcher_first{/*PA LP Site redesign : 881 */
+width: 100% !important;
+}
+
+.catcher{
+width: 100% !important;
+}
+#my_account_content input.error,
+#my_account_content select.error,
+#register_credit_form input.error,
+#register_credit_form select.error{
+background:#FEFFE1;
+border:1px solid #FFBA91;
+}
+.dobAM
+{
+color: red;
+font-size: 11px;
+text-transform: none;
+display: inline;
+padding-left: 10px;
+
+}
+.regAM
+{
+width:390px !important;
+}
+.paragraph_CIE{text-align:justify;color:#6c6c6c; font-size:13px; margin:5px 0 10px 0;}
+
+.image_partner_CIE{display:block; margin:0px auto; text-align:center;}
+
+span.partner_bancomer {display:inline-block; margin: 0px 25px 0px 0px; width:190px;vertical-align: 24px;}
+span.partner_bancomer img{width:100%; height:100%; display:block;}
+
+span.partner_seven{display:inline-block; margin: 0px 25px 0px 0px; width:60px;vertical-align: 20px;}
+span.partner_seven img{width:100%; display:block;}
+
+span.partner_spei{display:inline-block; margin: 0px 25px 0px 0px; width:135px;vertical-align: 24px;}
+span.partner_spei img{width:100%; height:100%; display:block;}
+
+#CIE_terms{color:#000; font-size:13px;}
+
+#CIE_terms ul{list-style-image:url('/assets/images/credit_arrow_active.png');padding: 0px 15px;}
+
+#CIE_terms ul li{margin:10px 0px;}
+
+#CIE_terms ul li ul{padding: 0px 30px;}
+
+#CIE_terms ul li ul li{margin:10px 0px;}
+
+.bar_code_CIE_confirm{display:block; margin:40px auto; text-align:center;}
+
+div.my_account_module_content_info > ul {
+font-size: 0.9em;
+font-family: 'robotoregular';
+}
+
+div.my_account_module_content_info > ul > li {
+display: block;
+line-height: 1.2em;
+margin: 10px 0px;
+}
+
+p.legend_terms_conditions {
+font-size: 0.9em;
+/*margin: 0px 0px 10px 30px;*//*new*/
+padding-bottom: 15px;
+}
+.my_account_module_content_especial .info_right
+{
+float: left !important;
+}
+#skiu{
+color:#999;
+font-size:12px;
+display:inline-block;
+padding:3px 0px 10px 0px;
+}
+
+table tr{
+height:35px !important;
+}
+
+.description_order_confirm div{
+border-top: 1px solid #ccc;
+padding-top: 10px;
+}
+.description_order_confirm div:first-child{
+border:none;
+}
+
+#my_account_content > section > div > form > fieldset {
+		width: 300px;
+		float: left!important;
+}
+ul#my_account_tree_view_options li a.active{
+color:#C81685 !important;
+background: url("/assets/images/credit_arrow_active.png") no-repeat 197px 4px;
+
+}
+
+#btn_aceptar.save_form_button {
+margin: 0px;
+		background-color: #3b3b3b;
+		border: none;
+		color: #FFF;
+		cursor: pointer;
+		font-size: 18px;
+		display: inline-block;
+		text-align: center;
+		font-family: 'robotocondensedregular', sans-serif;
+		margin-left: 10px;
+		vertical-align: bottom;
+}
+
+.my_account_module_content select#state, .my_account_module_content select#deleg, .my_account_module_content select#col {
+		width: 210px;
+		font-size: 16px;
+}
+
+/*Trazabilidad styles*/
+.rTable {
+display:block;
+width:100%;
+padding: 10px 0px;
+font-size: 12px;
+color:#666;
+}
+
+.rTableHeading,.rTableBody,.rTableFoot,.rTableRow {
+clear:both;
+}
+
+.rTableRow.valueslabels .rTableCell {
+		height: auto;
+}
+.rTableCell,.rTableHead {
+border:none;
+float:left;
+height:20px;
+overflow:hidden;
+padding:3px 1.8%;
+}
+
+#my_account_content > div > div.data-pleca > div > div.rTableRow.valueslabels > div:nth-child(5) {
+		float: right;
+		display: block;
+}
+.rTable:after {
+visibility:hidden;
+display:block;
+font-size:0;
+content:" ";
+clear:both;
+height:0;
+}
+
+.myacc-fullorders > *{
+	 font-family: 'robotoregular', Arial, sans-serif;
+}
+.myacc-fullorders .product-image img{
+		width: 135px;
+		height: auto;
+	cursor:pointer;
+	    margin: 20px 15px 15px 15px;
+}
+.myacc-pagi ul{
+	float:right;
+}
+.search-pagination .myacc-buscador > *, .myacc-fullorders .product-image img,
+.myacc-pagi ul li, .myacc-pagi, .myacc-fullorders .product-row div, .track-progressbar p{
+		display: inline-block;
+}
+/* IRIS 261 defect fix */
+.search-pagination .myacc-buscador >script {display:none;}
+
+.search-pagination .myacc-buscador p{
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		font-weight: 600;
+		color:#3b3b3b;
+}
+.myacc-fullorders .product-row div{
+	width:24%;
+	vertical-align: text-top;
+}
+.myacc-fullorders .product-row div:first-child{
+	width:12%;
+	padding-left: 0px;
+	
+}
+.myacc-fullorders .product-row div:nth-child(2){
+	width:50%;
+}
+.track-progressbar .myacc-fullorders .product-row div:nth-child(2){
+	width:80%;
+}
+.myacc-fullorders .product-row div:nth-child(3){
+	float: right;
+
+}
+.search-pagination .myacc-buscador #find-orders{
+	
+	margin-top:0px;
+}
+.special-buttons button {
+		margin-top:25px;
+}
+.myacc-buscador .btn_anadir_bolsa{
+	font-size:13px;
+	padding:4px 0px;
+}
+.myacc-pagi ul li{font-size:13px;padding:3px 6px;}
+.myacc-pagi ul li a:hover{color:#D5047F;}
+.myacc-pagi .active{padding:5px 9px; background-color: #b3b3b3; border-radius: 50%;}
+.myacc-pagi{float:right;margin-top:0px; height: 40px;}
+.myacc-buscador .myacc-pagi {
+	margin-top: -15px;
+}
+.search-pagination button{
+	width:10%;
+	padding: 3px 10px;
+	text-transform:none;
+	display: inline-block;
+}
+.rTableRow.valueslabels div{
+	font-size: 13px;
+	color: #000;
+}
+.rTableRow.valueslabels div:nth-child(2){
+	font-size:18px;
+	color:#F00;
+}
+.rTableRow.valueslabels div:nth-child(4) a{
+	color:#E10098;
+	position: absolute;
+	right: 20px;
+	top:-5px;
+	font-size: 14px;
+	
+}
+.track-orders.track-mesaregalos .myacc-fullorders .order-details,
+.track-order-details.track-orders-cie.print-cie.track-mesaregalos .myacc-fullorders .order-details,
+.track-orders.track-progressbar.guest_track .myacc-fullorders .order-details,
+.myacc-fullorders .trackprint{
+		color:#D5047F;
+	text-transform:none;
+	font-size:13px;
+}
+
+.myacc-fullorders .product-details > * {
+		padding: 4px 0px;
+}
+.myacc-fullorders .product-details h2{
+		text-transform: uppercase;
+		font-size: 14px;
+		color:#000;
+}
+.myacc-fullorders .product-details p{
+		font-size: 12px;
+		color:#444;
+		margin:6px 0px;
+}
+.myacc-fullorders .product-details i {
+		color: #F4B806;
+}
+p.bold_custom15{
+	color:#0abd3e !important;
+}
+.myacc-fullorders .product-details .quantity{
+	font-weight: bold;
+}
+
+.myacc-fullorders .order-status,
+.myacc-fullorders .activebar{
+		color:#0abd3e;
+	font-size: 15px;
+		font-weight: bold;
+		margin-bottom: 20px;
+}
+.myacc-buy{
+		color: #666;
+		background: #f2f2f2;
+		border: #666 solid 1px;
+	    font-size: 13px;
+		padding: 6px 15px !important
+}
+.icon-liv-radio-button-02{
+	top:-6px;
+	width:15px;
+	height: 15px;
+	background-color: #81898b;
+	position: absolute;
+	border-radius: 15px;
+}
+.icon-liv-radio-button-02:before{
+	content:"";
+}
+.myacc-fullorders .product-row:first-child{
+	border:none;
+}
+.myacc-fullorders .product-row{
+	padding:25px 0px;
+	border-top: solid 0.5px #dcdcdc;
+}
+.myacc-fullorders .products-container{
+	background-color: #ffffff;
+  	box-shadow: 0 5px 12px 0px rgba(80,80,80, 0.3);
+  	margin:15px 0px 50px 0px;
+
+}
+.myacc-fullorders .diretooltip{
+	font-weight: bold;
+}
+.track-progressbar .myacc-fullorders .products-container,
+.track-order-details .myacc-fullorders .products-container{
+	border:1px solid #f5f6f8;
+}
+.track-order-details .myacc-fullorders div.products-container:nth-child(4){
+	margin-top:30px;
+}
+.track-progressbar .myacc-fullorders .products-container:nth-child(2){
+	border-top:none;
+}
+.products-container .tablelitaC .tabelitacell:first-child{
+	word-break: break-all;
+}
+
+.myacc-fullorders .numped{
+		font-size:11px;
+}
+.fly-popover{
+		padding: 10px;
+		width: 160px;
+		line-height: 125%;
+		font-size: 12px;
+		margin-top: 27px;
+}
+.activebar{
+	color:#0abd3e;
+}
+#progressbar {
+		margin-top: 20px;
+}
+.progress-label {
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+		display: none;
+}
+#bar-wrapper{width:100%; margin-top:10px;}
+.status-labels ul li.lineactivestatus{
+	color:#27b24b !important;
+}
+#bar-wrapper, #bar-wrapper .status-labels ul li, #bar-wrapper .status-bullets li,
+.track-order-details #order-data-details ul li, .track-order-details .myaccTotal{display:inline-block}
+.track-order-details #order-data-details{width:100%;}
+.track-order-details.details-paypal #order-data-details{
+	float:none;
+	width:105%;
+}
+.track-order-details .myaccTotal{
+	float:right;
+	width:21%;
+	text-align:right;
+	font-size:13px;
+	padding:5px 10px;
+	margin-top:9px;
+	color:#444;
+}
+.myaccTotal~.liver-continue .button-label{
+	padding-bottom: 25px;
+}
+.track-order-details .myaccTotal{text-align:left;}
+.track-order-details .myaccTotal .myacc-full-total{font-size:14px; color:#000; margin-left:0px; display: block; font-weight: bold;}
+#bar-wrapper .gray-bar{background:#f5f6f8; z-index:1;}
+#bar-wrapper .progress-bar{
+	background:#27b24b;
+	margin-top:1px;
+	z-index:100;
+	opacity: 0.80;
+		filter: alpha(opacity =80);
+}
+#bar-wrapper .activestatus{color:#27b24b;}
+#bar-wrapper .gray-bar, #bar-wrapper .progress-bar{
+	height:2px;
+	width:100%;
+	-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+}
+#bar-wrapper .progress-bar{
+	width:0%;
+	position:absolute;
+	margin-top:0px;
+	padding: 0px;
+}
+#bar-wrapper .status-bullets ul{
+	/*margin-left: -15px !important;*//*none*/
+}
+#bar-wrapper .status-bullets ul, #bar-wrapper .status-labels ul{margin:0px; padding:0px;}
+#bar-wrapper .status-bullets li{
+		/*vertical-align: middle;*/
+		height: 14px;
+		margin-top:-15px;
+		position: relative;
+}
+#bar-wrapper .status-labels{
+	margin-top:5px;
+}
+#bar-wrapper .status-bullets li, #bar-wrapper .status-labels li{text-align:center;}
+#bar-wrapper .status-bullets li, #bar-wrapper .status-labels li{width: 24.5%;}
+#bar-wrapper .status-bullets li:first-child, #bar-wrapper .status-labels li:first-child{text-align:left;}
+#bar-wrapper .status-bullets li:last-child, #bar-wrapper .status-labels li:last-child{text-align:right;}
+#bar-wrapper .status-bullets li:first-child, #bar-wrapper .status-bullets li:last-child,
+#bar-wrapper .status-labels li:first-child, #bar-wrapper .status-labels li:last-child{width:24.5% !important; }
+#bar-wrapper .status-bullets li i{
+	 color:#d0d0d0;
+}
+#bar-wrapper .status-labels li{font-size:12px;}
+#bar-wrapper ul, #bar-wrapper .status-bullets, #bar-wrapper .status-labels{width:100%}
+/* Ocultar calificar y comprar de nuevo */
+.special-buttons .btn_calificar, .myacc-fullorders .myacc-buy{display:none;}
+.track-order-details h1{
+		/*font-size:16px;
+	padding:5px 0px;
+	font-weight:bold;*//*new*/
+}
+.myacc-location h1,.typeofpayment h1{
+	font-size:15px;
+	color:#444;
+	margin-left: 15px;
+}
+.myacc-location h1 .icon-liv-right-06{
+	display: none;
+}
+.typeofpayment h1 .icon-liv-right-06{
+	display: none;
+}
+.track-order-details p span{
+		font-weight:bold;
+}
+.track-order-details h1,
+.track-order-details .order-details{
+		text-transform:uppercase;
+}
+.track-order-details > *{
+		boder:1px solid #dadada;
+}
+.track-order-details .adress-order-details{
+	margin: 30px 0px 0px 0px;
+	padding: 5px 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    height: 240px;
+}
+
+.track-order-details .adress-order-details .order-details{
+		width: 38%;
+		float: left;
+}
+.track-order-details .adress-order-details .myacc-location{
+		width: 30%;
+		float: left;
+}
+.track-order-details .adress-order-details .typeofpayment{
+		width: 28%;
+		float: left;
+}
+.track-order-details .myacc-location p, .track-order-details .typeofpayment p{
+		font-size:13px;
+	line-height:140%;
+	margin-left:16px;
+	color:#444;
+}
+.track-order-details .icon-liv-right-06{
+		font-weight: bolder;
+		font-size: 11px;
+}
+.track-order-details .myacc-location p{
+	width:70%;
+}
+.track-order-details .order-details h2{
+	text-align:center;
+	border:1px solid #dadada;
+	padding:5px 0px;
+}
+.track-order-details .money-details{
+	border-bottom:1px solid #dadada;
+	border-left:1px solid #dadada;
+	border-right:1px solid #dadada;
+}
+.track-order-details .money-details .rTable{
+		padding-bottom:0px;
+}
+.track-order-details .money-details .rTableCell:first-child{
+	text-align:left;
+	width:56%;
+	color:#333;
+}
+.track-order-details .money-details .rTableCell:last-child{
+	text-align:center;
+}
+.track-order-details .money-details div.rTableRow:last-child{
+	display:inline-block;
+	background:#f5f6f8;
+	padding:2px 0px;
+}
+.track-order-details .money-details div.rTableRow:last-child .rTableCell:first-child{
+		font-size: 13px;
+		margin-top: 3px;
+}
+.track-order-details .money-details  .rTableRow{width:100%;}
+.track-order-details .money-details .rTableCell{
+	margin-left:6%;
+	text-transform:none;}
+.track-order-details #myacc-total{
+	font-size:18px;
+	color:#eb2a23;
+	font-weight:bold;
+}
+.track-order-details  #myacc-subtotal{
+	font-size:15px;
+	color:#000;
+	font-weight:bold;
+}
+.track-order-details .valueslabels .rTableCell:last-child,
+.track-order-details .descplabels .rTableHead:last-child{text-align:right;}
+.track-order-details #order-data-details ul li{
+	font-size:12px;
+color:#444;	
+	width:22%;
+	text-align:center;
+	text-decoration:none;
+	vertical-align:top;
+	text-align: left;
+}
+.track-order-details #order-data-details ul li:last-child{
+	width:31%;
+}
+.track-order-details #order-data-details ul li span{font-weight:normal;}
+.track-order-details #order-data-details ul{
+	margin:20px 0px 30px 0px;
+}
+.track-order-details #order-data-details ul li #numAuth,.track-order-details #order-data-details ul li #numStore, .track-order-details #order-data-details ul li #numTerm, .track-order-details #order-data-details ul li #numBoleta{
+	display: block;
+	color:#000;	
+	font-weight: bold;
+}
+.the-promocode{
+	font-weight:bold;
+	float:right;
+	font-size:13px;
+	margin:20px 0px 10px 0px;
+}
+.myacc-fullorders .the-promocode{
+	font-size:11px !important;
+	font-weight: normal !important;
+	color:#444;
+}
+.myacc-fullorders .the-promocode #myacc-promocode{
+	font-size: 14px;
+	color:#444;
+}
+.the-promocode span{font-weight:normal;}
+.myacc-fullorders .data-pleca {
+		font-size: 9px;
+		vertical-align: text-bottom;
+		padding: 5px 4px;
+		background-color: #ffffff;
+    box-shadow: 0 5px 12px 0px rgba(80,80,80, 0.3);
+
+    
+}
+.diretooltip .icon-liv-down-02{font-size:9px;color:#333;}
+.myacc-fullorders .data-pleca .rTableHead,
+.myacc-fullorders .data-pleca .rTableCell{/*text-align:center;*//*new*/}
+.myacc-fullorders .data-pleca .rTableHead:last-child,
+.myacc-fullorders .data-pleca .rTableCell:last-child{text-align:right;}
+.track-order-details .adress-order-details .order-details{display:none;}
+
+.myacc-fullorders .product-image .sin-disponibilidad{
+	background:#393a3e;
+	padding:5px 10px;
+	position:absolute;
+	z-index:100;
+	width:auto !important;
+	margin:66px 10px;
+	display:none;
+}
+.myacc-fullorders .sin-disponibilidad p{
+		color: #fff;
+		text-align: center;
+		font-size: 13px;
+		font-weight: 600;
+}
+.myacc-fullorders .order-status-canceled{
+	color:#999;
+	font-weight:bold;
+	font-size:15px !important;
+}
+.track-order-details.print-cie .order-details{
+	display:block;
+}
+.print-cie .product-image, .print-cie .product-row,
+.print-cie .product-row div{
+	 display:inline-block;
+	 float:left;
+	 margin:0px !important;
+}
+.print-cie .product-image{
+	 width:17%;
+	 border-top:solid 1px #dcdcdc;
+}
+.print-cie .product-row{
+	 width:83%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div,
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div{
+	width:20%;
+	text-align:left;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div{
+	font-size:12px;
+	color:#666;
+	padding-bottom:25px;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div:nth-child(1),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(1){
+	 width:28%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaC h2{
+	 width:90%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div:nth-child(2),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(2),
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div:nth-child(3),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(3){
+	 width:12%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div:nth-child(4),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(4){
+	 width:28%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH > div:nth-child(5),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(5){
+	 width:15%;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(1),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(2),
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(3){
+	 font-size:13px;
+	 color:#000;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaC h2{
+	 font-size:14px;
+	 font-weight:600;
+}.track-order-details.print-cie .myacc-fullorders .tablelitaC p{
+	 color:#999;
+	 font-size:12px;
+	 padding:10px 0px;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(4){
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:600;
+	width: 25%;
+	word-break: break-all;
+	margin-right: 27px !important;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaC > div:nth-child(5){
+	color:#F00;
+	font-size:15px;
+	font-weight:600;
+}
+.track-order-details.print-cie .myacc-fullorders .tablelitaH,
+.track-order-details.print-cie .myacc-fullorders .tablelitaC{
+	 width:100% !important;
+}
+.track-order-details.print-cie .myacc-fullorders .precio-tachado{
+	text-decoration:line-through;
+	color:#999;
+	font-size:12px;
+		width: 60%;
+		padding-bottom: 6px;
+}
+.track-order-details.print-cie .cie-footer{
+	margin-bottom:20px;
+}
+.cie-footer .cie-total{
+	float:right;
+}
+.myacc-fullorders .cie-footer .cie-footer-details,
+.myacc-fullorders .cie-footer .cie-total .ctotal{
+		background:#f2f2f2;
+
+}
+.myacc-fullorders .cie-footer .cie-footer-details{
+		padding: 20px 40px;
+		width: 53%;
+	margin-bottom:20px;
+}
+.cie-footer .cie-footer-details li{
+		font-size: 13px;
+		line-height: 132%;
+	list-style:circle;
+}
+.cie-footer .cie-footer-details p{
+		margin-top:10px;
+	font-size: 13px;
+}
+.cie-footer .cie-footer-details > ul{
+		padding:10px 0px;
+}
+.cie-footer .cie-footer-details > ul > ul li{
+		list-style:none;
+	margin-left:10px;
+}
+.cie-footer .cie-footer-details ul span{
+		font-weight:600;
+}
+.cie-footer .cie-total .ctotal{
+	padding:5px 10px;
+	font-size:13px;
+}
+.cie-footer .cie-total .cie-total-red{
+	font-size:20px;
+	font-weight:600;
+	padding-left:45%;
+	color:#F00;
+}.cie-footer .cie-footer-details{
+	float:left;
+	margin-top:50px;
+}
+.search-pagination .myacc-ayuda-pedidos p{
+		font-weight: bold;
+		font-size: 15px;
+		color:#3b3b3b;
+
+}
+#my_account_tree_view ~ #my_account_content .search-pagination{
+	margin-top: 15px;
+}
+.track-orders.sorry-msj .sorry-message p{
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	margin:100px 0px;
+}
+/* changed as per the structure in merical:srart */
+#my_account .alert-orders{
+	 width:100%;
+	 border:1px solid red;
+	 margin:10px 0px;
+}
+#my_account .alert-orders .icon-warning{
+		width: 60px;
+		font-size: 27px;
+		background: #b62125;
+		padding: 5px 10px 5px 7px;
+		vertical-align: sub;
+		line-height: 131%;
+		margin-right: 30px;
+}
+#my_account .alert-orders p{
+	 color:red;
+}
+#my_account .alert-orders .erroricon{
+	float:right;
+}
+/* changed as per the structure in merical:End */
+.special-buttons .btn_anadir_bolsa{
+		width: 242px;
+		font-size: 18px !important;
+}
+
+.my_account_content2{
+		padding-right: 5px;
+		width: 73%;
+		margin-left: 330px;
+}
+.track-orders-cie.print-cie #order-data-details{
+		float: left;
+		display: block;
+		width: 75% !important;
+}
+.track-orders-cie.print-cie #order-data-details ul li
+{
+	width:21%;
+}
+.track-orders-cie.print-cie #order-data-details ul li:last-child {
+		width: 26%;
+}
+.erroricon{
+		color: #fff;
+		background: red;
+		padding: 4px 5px;
+		border-radius: 20px;
+		font-size: 9px;
+		font-weight: bold;
+		margin: 3px;
+}
+.myacc-buscador .alert-orders{
+		width: 100%;
+		border: 1px solid red;
+		margin: -13px 0px 30px 0px;
+		height: 35px;
+}
+.myacc-buscador .alert-orders p{
+		font-size: 13px !important;
+		font-family: 'robotoregular',Arial,sans-serif;
+	margin: 0 !important;
+}
+.track-orders-cie .rTableRow,
+.track-orders .rTableRow{
+	width:100%;
+	position: relative;
+}
+.track-orders-cie .rTableRow .rTableHead,
+.track-orders .rTableRow .rTableHead,
+.track-orders-cie .rTableRow .rTableCell,
+.track-orders .rTableRow .rTableCell{
+	width:15% !important;
+	white-space: nowrap;
+	padding-right: 30px !important;
+}
+.track-orders-cie .rTableRow .rTableHead:last-child,
+.track-orders-cie .rTableRow .rTableCell {
+	width: 11.5% !important;
+}
+.track-mesaregalos .rTableRow .rTableHead,
+.track-mesaregalos .rTableRow .rTableHead,
+.track-mesaregalos .rTableRow .rTableCell,
+.track-mesaregalos .rTableRow .rTableCell{
+	width:12%;
+}
+.track-mesaregalos .rTableRow .rTableCell:nth-child(3),
+.track-mesaregalos .rTableRow .rTableHead:nth-child(3){
+	width:19%;
+}
+.track-mesaregalos .rTableRow .rTableHead:last-child,
+.track-mesaregalos .rTableRow .rTableHead:last-child,
+.track-mesaregalos .rTableRow .rTableCell:last-child,
+.track-mesaregalos .rTableRow .rTableCell:last-child{
+		width: 27%;
+}
+.rTableCell .diretooltip .icon-liv-down-02{
+	padding-left:5px;
+}
+
+#my_account_content > div > div.data-pleca > div > div.rTableRow.valueslabels > div:nth-child(3) {
+		width: 19.5%;
+}
+.content-confirmacion .img-alerta{
+	 display:none;
+}
+
+#wrapper_form_credit #register_credit_form > p > select {
+		width: 54px!important;
+		border: 1px solid #CCC;
+		margin-right: 5px;
+		padding: 3px 0px;
+		border-radius: 0px!important;
+}
+
+#register_credit_form > p > span {
+		color: #000;
+}
+
+
+#register_credit_form #gender {
+		margin-right: 10px;
+}
+
+/*iPad Landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.ayuda_{
+	margin:0px 0px;
+}
+}
+/* PA- TLO SQL Pagination bottom Style - Start*/
+.myacc-pagis {
+			 padding: 0px 16px 0px 16px;
+			 margin: 0px 0px 10px 0px;
+			 width: 992px;
+			 float: right;
+			 display: inline-block;
+}
+
+.myacc-pagis ul {
+			 float: right;
+			 margin-top: 17px;
+			 margin-bottom: 8px;
+			 margin-right: 0px;
+			 font-size: 12px;
+			 font-weight: bold;
+}
+/* PA- TLO SQL Pagination bottom Sytle - end*/
+/*****************************/
+/* NEW STYLES SEPTEMBER 2016 */
+/*****************************/
+.btn_anadir_bolsa i  {
+	display: none;
+}
+.button-label.left {
+	padding: 10px 20px 10px 60px;
+}
+.button i.left {
+	left: -40px;
+}
+.button-label.left i.left{
+	display: none;
+}
+.myacc-fullorders .product-row div {
+	width: 20%;
+}
+.rTableCell, .rTableHead {
+	height: auto;
+	padding: 3px 1.8% !important;
+}
+.rTableRow.valueslabels .rTableCell {
+	min-height: auto;
+}
+.rTableRow.valueslabels .rTableCell:nth-child(1){
+	color:#444;
+}
+.rTableRow.valueslabels .rTableCell:nth-child(1),.rTableRow.valueslabels .rTableCell:nth-child(2) {
+	font-size: 14px;
+	font-weight: 600;
+	
+}
+.search-pagination .myacc-buscador {
+	border-top: solid 1px #979797;
+	margin-top:44px;
+	position: relative;
+}
+#my_account_content .Transationfail {
+	width: 90%;
+}
+#my_account_content p.txt-alert {
+	font-size: 8px;
+	padding: 22px 0 0 0;
+}
+#my_account_content #my_account_content_notifications {
+	border-top: 1px solid rgb(204,204,204);
+	clear: both;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+
+.rTableRow .rTableHead {
+		width: 15%!important;
+		padding-right: 30px!important;
+}
+.track-orders-cie .rTableRow .rTableHead:last-child {
+		width: 15%!important;
+		float: none!important;
+}
+.track-orders-cie .rTableRow .rTableCell {
+		padding-right: 30px!important;
+}
+.track-orders-cie .rTableRow .rTableCell:last-child {
+		float: none;
+}
+#my_account.my_account_wrapper .my_account_content2.track-orders .myacc-fullorders .data-pleca .rTable .rTableRow.descplabels .rTableHead {
+    padding: 10px 10px;
+}
+
+/* Start - IBM RTC Defect fix 2053 */
+.notifications_module {
+    width: 100% !important;
+}
+.divider-section {
+    color: #b1b1b1;
+    margin: 40px 0;
+}
+/* End - IBM RTC Defect fix 2053 */
+/*redesign myAccount.html*/
+#main_wrapper.myaccount_home section#my_account > section#my_account_content{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+}
+#main_wrapper.myaccount_home section#my_account > section#my_account_content #my_account_section_title{
+	top:-99px;
+	left:0px;
+}
+#main_wrapper.myaccount_home .my_account_module_content{
+	display: none;
+}
+
+
+#main_wrapper.myaccount_home #my_account_tree_view{
+	width: 900px;
+	margin:55px auto 0 auto;
+	
+}
+
+#main_wrapper.myaccount_home #my_account ul#my_account_tree_view_options {
+	position: relative;
+}
+#main_wrapper.myaccount_home #my_account ul#my_account_tree_view_options{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:column;
+	
+}
+#main_wrapper.myaccount_home #my_account ul#my_account_tree_view_options li{
+	font-size:14px;
+	position: absolute;
+	
+}
+#main_wrapper.myaccount_home #my_account ul#my_account_tree_view_options li a:hover{
+	text-decoration: underline !important;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(6){
+	/*mis pedidos*/
+
+  	background: none;
+  	box-shadow: none;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(6) > a{
+	text-transform: uppercase;
+	  	font-size: 18px;
+	padding: 12px 23px;
+	position: absolute;
+	top:0px;
+	width: 774px;
+	background-color: #ffffff;  	
+  	 box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  	box-sizing:border-box;
+  	color:#4a4a4a;
+  	position: absolute;
+  	left: 0;
+  	font-family: 'robotomedium';
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(6) > a:after{
+	content:" - Revisa seguimiento a pedidos, pedidos anteriores, detalle de pedidos";
+	font-size: 11px;
+	position: absolute;
+	top:15px;
+	left: 145px;
+	width: 400px;
+	text-transform: capitalize;
+	color:#777;
+
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(7){
+    height: 120px;
+    width: 362px;
+    left:0px;
+    padding-right:5px;
+    padding-left:5px;
+  	padding-top:80px;
+	background-color: #ffffff;
+	 box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
+	top:100px;
+	position: absolute;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(7):before{
+	/*facturacion electronica*/
+	content:"Crédito y Pagos";
+	width: 360px;
+	font-size: 18px;
+	padding: 12px 18px;
+	position: absolute;
+	box-sizing:border-box;
+	color:#4a4a4a;
+	top:0px;
+	z-index:1;
+	border-bottom: solid 1px #dcdcdc;
+	text-transform: uppercase;
+	font-family: 'robotomedium';
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(7) a{
+	padding-left: 20px;	
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(2){
+	/*tarjetas de credito*/
+	top:202px;
+	left:25px;
+	z-index: 2;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(10){
+	/*efectivo y transferencias*/
+	top:224px;
+	left:25px;
+	z-index: 2;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(9){
+	/*mis descargas*/
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(1){
+	height: 145px;
+    width: 362px;
+    padding-left:5px;
+    padding-right:5px;
+  	padding-top:55px;
+	background-color: #ffffff;
+	top:100px;
+  	 box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  	position: absolute;
+  	left:400px;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(1):before{
+	/*actualizar datos personales*/
+	content:"Datos de mi cuenta";
+	width: 360px;
+	font-size: 18px;
+	padding: 12px 18px;
+	position: absolute;
+	box-sizing:border-box;
+	color:#4a4a4a;
+	top:0px;
+	border-bottom: solid 1px #dcdcdc;
+	text-transform: uppercase;
+	font-family: 'robotomedium';
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(1) a{
+	margin-left: 20px;	
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(5){
+	/*cambiar contraseña*/
+	width: 200px;
+	top:176px;
+	left:425px;
+	z-index: 2;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(4){
+	/*dirección de entrega*/
+	width: 200px;
+	top:197px;
+	left:425px;
+	z-index: 2;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(8){
+	/*telefonos celulares*/
+	width: 200px;
+	top:218px;
+	left:425px;
+	z-index: 2;
+}
+#main_wrapper.myaccount_home #my_account #my_account_tree_view  #my_account_tree_view_options > li:nth-child(3){
+	/*preferencias de comunicación*/
+	width: 200px;
+	top:240px;
+	left:425px;
+	z-index: 2;
+}
+/*end redesign myAccount.html*/
+#my_account_content #otherNeighborhoodDiv input#otherNeighborhood{
+	margin-left: 0px;
+	margin-top:0px;
+}
+
+section.track-orders .products-container .product-row .product-image {
+	width: 20%;
+	margin-right: 30px;
+	text-align: center;
+	padding-right: 0 !important;
+}
+
+section.track-orders .products-container .product-row .product-image img{
+	width: 80%;
+	height: auto;
+}
+
+section.track-orders .products-container .product-row .product-details {
+	width: 40%;
+}
+
+section.track-orders .products-container .product-row .special-buttons {
+	width: 25%;
+}
+
+section.track-orders .products-container .product-row .special-buttons .btn_anadir_bolsa {
+	width: 100%;
+}
+
+section.track-orders .myacc-fullorders .products-container .product-row {
+	padding: 25px 10px;
+}
+
+/*div#main_wrapper #my_account aside#my_account_tree_view+section#my_account_content.track-orders.track-mesaregalos {
+	width: auto !important;
+}*/
+
+#myacc-prod-1 > .product-row >.product-image ~ .product-details{
+	width: 75%;
+}
+@media only screen and (max-width: 1380px) {
+ 		#myacc-prod-1 > .product-row >.product-image ~ .product-details{
+			width: 74%;
+		}     
+    
+}
+@media only screen and (max-width: 1290px) {
+		#my_account_content > table{
+			margin-left:30px;
+		}
+		#my_account_content input[type=text], input#tipoRFC{
+			width: 200px !important;
+		}
+		.myacc-buscador form{
+			width: 330px !important
+		}
+		
+}
+#my_account_content.myEbooks{
+    left: 330px;
+}
+#my_account_tree_view.myEbooksTree{
+	    margin-top: -30px;
+}
+/*Added for R2 OrderDetails Page*/
+#cancelledItemsMessage{
+	clear:both;
+}
+#my_account_content table td .my_account_module_content .my_account_module_content_info {
+	margin-top: 16px;
+	font-size: 13px;
+	color: #4a4a4a;
+	width: auto;
+	box-shadow: none;
+	padding: 0px;
+}
+section#my_account_update_data .my_account_module_content_info {
+	height: auto;
+	min-height: auto;
+	overflow: hidden;
+}
+#my_account_change_password form.validate_forms[name="cambiaForm"] label.required_fields {
+	padding: 15px;
+}
+#my_account_stored_phone_numbers .my_account_module_content_info {
+	background-color: #0000 !important;
+	box-shadow: none !important;
+	padding: 15px;
+	margin-top: 15px;
+}

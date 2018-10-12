@@ -1,0 +1,342 @@
+body{background:#fff;font-family:Arial, Helvetica, sans-serif;}
+.clear{overflow:auto;overflow-x:hidden;overflow-y:hidden;}
+#main_wrapper{/*margin:0 auto;width:1024px;*/}
+#micuenta_content{font-family:arial, sans-serif;margin-top:30px;padding:0 16px;position:relative;}
+.mc-new-register{background-color:#FFF;border:1px solid #EEE;margin:0 auto;width:960px;}
+.mc-new-register .nav_micuenta{float:inherit!important;}
+.mc-new-register #micuenta_content #form_guest_personal_data fieldset{margin:0 0 7px!important;}
+.mc-new-register #form_guest_personal_data .nav_micuenta{float:inherit;margin:29px 0 50px;padding:15px 0 0;width:183px;}
+.mc-new-register .azul.cancelar_{padding:6px 0;position:absolute;right:-710px;top:15px;}
+#form_guest_personal_data p{margin-bottom:5px;padding-bottom:5px;}
+.mandatory_fields,#col_derecha_micuenta form fieldset div.require_fields{color:#FF4700;display:block;font:.75em/.8em robotomedium, Arial, sans-serif;padding:15px 10px 20px 20px;}
+#col_derecha_micuenta_ span.mandatory_fields{padding:15px 10px 0 20px !important;}
+fieldset{border:none;padding:10px 15px;position:relative;}
+#col_derecha_micuenta{background-color:#FFF;border:1px solid #EEE;display:inline;float:right;margin-bottom:20px;min-height:200px;padding:15px;position:relative;width:723px;}
+#col_derecha_micuenta p{font-family:robotoregular, arial, sans-serif;font-size:12px;}
+#col_derecha_micuenta fieldset p{font:.9em robotomedium, arial, verdana;margin-bottom:7px;}
+#col_derecha_micuenta input[type=text]#login{width:200px;}
+.orfulup #col_derecha_micuenta{background-color:#FFF;border:1px solid #EEE;display:inline;float:right;margin-bottom:20px;min-height:200px;padding:15px;position:absolute;top:0;width:723px;}
+.orfulup input#btn_agregar.btn_actualizar{left:14px;margin:7px 7px 0;position:absolute;top:84px;}
+.orfulup .linkaction{left: 244px;position: absolute;top: 175px;width: 180px!important;position: static!important;float: left!important;margin: 10px 0px 0px 561px!important;}
+.orfulup .linkaction a{font-weight:400;}
+.dp-total-wrapper {background-color: #fff;border: 1px solid #F0EDED;}
+#col_derecha_micuenta .margent{font:.9em robotomedium, arial, verdana;margin:0 0 0 15px;width:84%;}
+#micuenta_content legend span{display:block;font-family:robotobold, arial, sans-serif;font-size:15px;padding-bottom:0;}
+#micuenta_content form#form_guest_personal_data div{color:#FFF;font-family:arial, sans-serif;font-size:11px;position:relative;text-align:left;}
+p.explain_data{display:none!important;}
+div#span_card1 label{font-size:13px!important;}
+#col_derecha_micuenta .margent p:nth-child(2),#col_derecha_micuenta .margent ol:nth-child(3){font-size:.8em;}
+#col_derecha_micuenta .margent label a{margin-top:-5px;position:absolute;}
+#ajuste_checkbox label{text-align:left;width:70%;}
+#col_derecha_micuenta div.margent p:first-child{font-size:1.3em;}
+#col_derecha_micuenta table tr:first-child td{padding:5px;text-align:center;}
+#col_derecha_micuenta table tr td:nth-child(6) .btnenviar2{-moz-border-radius:3px;-moz-box-shadow:0 1px 3px rgba(000,000,000,0.5), inset 0 0 2px rgba(255,255,255,1);-webkit-border-radius:3px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5), inset 0 0 2px #FFF;background-color:#E10098;background-image:0;border:1px solid #DB0075;border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,0.5), inset 0 0 2px #FFF;color:#FFF!important;cursor:pointer;display:block;font-family:OpenSansRegular, Arial, Helvetica, sans-serif;font-size:13px;padding:5px;text-align:center;text-shadow:-1px -1px #B1005C;}
+.sexo span.sexo_registro{font-family:robotoregular, arial, sans-serif;font-size:13px;padding-right:17px;}
+a.azul cancelar_{float:left;margin:15px 0 0;}
+.explicacion-micuenta{background:#96CAFF;color:#FFF;float:left;font:.9em OpenSansRegular, arial, sans-serif;height:18px;margin-left:-2px;padding:8px 15px;position:relative;text-align:left;z-index:100;}
+#micuenta{background-color:#CCC;float:right;margin:0;padding:0;width:773px;}
+#micuenta input#male{margin-left:8px;}
+.ribbon-micuenta{border-color:transparent transparent transparent #96CAFF;border-style:solid;border-width:17.7px 0 17.7px 16px;float:left;height:0;position:relative;width:0;z-index:100;}
+#form_guest_personal_data .sex{font:.8em/.8em arial, sans-serif;padding-left:15px;}
+input.btn_actualizar{-webkit-appearance: none;padding: 8px 20px!important;border-radius: 0;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;color: #FFF!important;cursor: pointer;display: block;text-align: center;text-shadow: none;width: 150px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;background-color: #E10098;background-image: -moz-linear-gradient(top,#E10098,#e60077);background-image: -ms-linear-gradient(top,#E10098,#df0073);background-image: -o-linear-gradient(top,#E10098,#df0073);border: 0px;}
+#col_derecha_micuenta .nav_micuenta .linkaction{padding-bottom:30px;}
+#col_derecha_micuenta .nav_micuenta .linkaction a{top:50px;width:185px;}
+.info-adicional label{padding-top:11px;vertical-align:top;}
+#form_guest_personal_data select,#forms_checkout select{border:1px solid #CCC;padding:5px;}
+#form_guest_personal_data label,#form_guest_pay_method label{color:#000;display:inline-block;font:.75em/1em robotomedium, arial, verdana;text-align:right;width:160px;}
+#micuenta_content #form_guest_personal_data label,#form_guest_pay_method label{font-size:12px;text-align:right;width:160px;}
+#form_guest_personal_data fieldset{margin-bottom:20px;margin-left:40px;}
+#form_guest_personal_data fieldset legend{color:#000;font:1.2em robotomedium, arial, verdana!important;padding-top:10px;text-transform:capitalize;}
+#form_guest_personal_data fieldset:first-child legend{padding-top:2px;}
+#form_guest_personal_data fieldset:last-child{padding-bottom:40px;}
+#form_guest_personal_data label.error,#form_guest_personal_data label.error_estado,#form_guest_personal_data label.error_municipio{color:#F42222;font-family: 'robotocondensedregular', "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:11px;padding:0 0 0 10px;display: inline-block;}
+#form_guest_personal_data input.error,#form_guest_personal_data select.error{-moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);background-color:#FFFFB2;border:1px #FFA300 solid;box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);}
+#form_guest_personal_data label.anio_label{width:40px;}
+#form_guest_personal_data p.telefono label{margin-bottom:15px;}
+span.red{color:red!important;margin:0;}
+.nav_micuenta{float:left;margin:0;padding:0;width: 100%;}
+#form_guest_personal_data .nav_micuenta{float:left;margin:29px 0 50px;padding:15px 0 0;}
+a.cp_help{color:#E10098;display:none;font:.75em/1em arial, verdana!important;text-decoration:underline;}
+.infodisplay{color:#565656;font:1em Arial, sans-serif;margin-bottom:13px;padding-left:0;width:650px;}
+#ajuste_izq{margin-left:50px;}
+.mes_label{margin-left:-40px;}
+.cancelar_{height:15px;position:absolute;top:51px;width:126px;}
+#form_guest_personal_data fieldset:nth-child(2) select{width:150px;}
+.mes_actualiza{width:113px;}
+input#btn_agregar.btn_actualizar{left:41px;padding:5px 25px;position:absolute;top:44px;}
+.anio_actualiza{width:85px;}
+.y-s{font:.8em OpenSans, Arial, sans-serif;margin:0 5px;}
+#opciones{float:left;left:40px;padding-left:10px;position:relative;top:20px;width:300px;}
+#opciones label,#opciones2 label{left:10px;margin-bottom:0;position:relative;text-align:left;top:-4px;width:100%;}
+#opciones2{float:left;left:10px;margin-left:80px;position:relative;top:20px;width:300px;}
+#ajuste_checkbox{height:24px;width:406px;}
+.margent #ajuste_checkbox{left:0;top:10px;}
+.margent ol li{list-style:square;margin-left:35px;padding:6px 0 0;}
+#form_guest_personal_data fieldset #ajuste_checkbox{height:24px;left:40px;position:relative;top:40px;width:606px;}
+#form_guest_personal_data fieldset #ajuste_checkbox input[type=checkbox]{margin-top:2px;position:absolute;}
+#form_guest_personal_data fieldset #ajuste_checkbox a{color:#00B7FF;font-family:robotomedium, arial, sans-serif;font-size:13px;padding:0 20px;text-decoration:underline;}
+.margent{font-size:12px;margin-left:30px;margin-top:30px;}
+.margen_adj{float:left;margin-bottom:20px;width:690px;}
+.margenT p{font-family: 'robotoregular', arial, sans-serif;
+font-size: 1em;
+color: #5C5C5C;
+padding-bottom: 5px;
+font-weight: bold;}
+.margenT ol{font: .7em 'robotomedium', arial, sans-serif;
+color: #666;
+list-style: disc;
+margin: 20px 30px;}
+
+.margenT ol li{font-family: 'robotoregular', arial, sans-serif;
+margin-bottom: 15px;
+text-align: left;}
+.margent p:nth-child(1){margin-top:6px;}
+.margent p:nth-child(2){margin-top:5px;}
+.margent ol:nth-child(3){margin:5px 0 0 30px;}
+.margent div:nth-child(4){margin-top:20px;}
+.margent div span:nth-child(2){margin-left:20px;}
+.margent div:nth-child(5){float:left;margin-bottom:20px;width:710px;}
+.margent2 div:nth-child(1){float:left;margin-top:20px;}
+.margent2 div:nth-child(1) img{float:left;padding-left:45px;}
+.margent2 div:nth-child(2){margin-left:100px;}
+.margent2 div:nth-child(2) p,.font_tipo{font-size:12px;margin-bottom:10px;}
+.margent2 div:nth-child(3){width:80px;}
+#_dashed{margin:20px 0 0 100px;padding-bottom:5px;position:relative;}
+#_dashed p:nth-child(1){border-bottom:1px dashed #666;font:.75em robotomedium, Arial, sans-serif;width:410px;}
+#_dashed p:nth-child(2){float:left;font-size:12px;margin-top:20px;padding-bottom:10px;}
+#_dashed p span:nth-child(2){margin-left:30px;}
+.margent4{margin-top:40px;}
+.margen_adj p:nth-child(even){font-size:10px;margin-top:5px;}
+#ajdust_botton{margin-bottom:10px;margin-left:600px;position:relative;}
+#micuenta_content #form_guest_personal_data .intereses_checkbox label,#opciones label,#opciones2 label{text-align:left!important;width:300px!important;}
+section#col_derecha_micuenta.form_register_{margin:0 auto;width:100%!important;}
+.titulo_form_register{margin:10px auto;}
+.titulo_form_register span{font-family:robotobold, arial, sans-serif;text-transform:capitalize;}
+.form_register_{padding:0 20px;}
+.form_register_ .nav_micuenta input#btn_agregar.btn_actualizar{padding:5px 25px;top:16px;}
+#ajuste_over_{left:16px;position:absolute;}
+.tarjeta_pre_{border-radius:0;font-size:13px;width:146px;}
+#span_card2{left:164px;position:relative;top:-20px;}
+#span_card2 select{width:120px!important;}
+.info_{font-family:arial;font-size:11px;margin:8px auto;padding:0 13px;}
+.nav_micuenta.tres_{height:56px;padding-bottom:50px;width:100%;}
+.nav_micuenta.tres_ a input.btn_actualizar{float:right;padding:5px 20px;position:relative;top:14px;}
+.nav_micuenta.tres_ .terminos{display:inline;left:15px;top:-24px;width:330px;}
+.title_form_{margin:5px 0 5px 10px;}
+.label_right_{margin-bottom:7px!important;padding-left:15px;text-align:left!important;}
+.label_left_{margin-bottom:7px!important;}
+#ccno{margin:10px 0;}
+.y_{width:50px!important;}
+.ce_position{height:43px;padding-top:19px;}
+.telefonos_fieldset_{top:10px;}
+.monto_cuenta_ input{max-width:180px;min-width:180px;width:180px;}
+.azul.regresar_fact_{/*left:-80px;position:relative;top:-20px;*/}
+.regresar_fact_{float: left !important; text-decoration:underline!important;}
+#col_derecha_micuenta #form_guest_personal_data .nav_micuenta.alinear_{float:left;margin:-5px 0 0 500px;}
+#col_derecha_micuenta #form_guest_personal_data fieldset label.extaticos{color:#84115a;margin-left:60px;text-align:left;}
+#col_derecha_micuenta #form_guest_personal_data fieldset label.adjust_ext{color:#84115a;margin-left:30px;text-align:left;}
+#col_derecha_micuenta #form_guest_personal_data #contenidos_credito fieldset#ajuste_altura div.tarjinfo_block{float:left;margin-bottom:32px;width:300px;}
+#col_derecha_micuenta #ajuste_altura div.tarjinfo_block label.adjust_ext form#defaultaddform select.tarjeta_pre_{margin-left:-20px;padding:5px;width:170px!important;}
+#col_derecha_micuenta #form_guest_personal_data #contenidos_credito fieldset:nth-child(2) div.nav_micuenta{padding-left:55px;}
+#col_derecha_micuenta #form_guest_personal_data #contenidos_credito fieldset#ajuste_altura div.tarjinfo_block label.mes_label{color:#000;float:left;font-family:robotomedium, arial, sans-serif;margin:5px 0;padding-right:16px;width:auto;}
+#col_derecha_micuenta #form_guest_personal_data #contenidos_credito fieldset#ajuste_altura div.tarjinfo_block span.red{padding:0;}
+#col_derecha_micuenta #form_guest_personal_data #contenidos_credito fieldset#ajuste_altura div.addnew a,#col_derecha_micuenta fieldset#ajuste_altura div#ajuste_izq a.btn_actualizar.ajuste_btn{-moz-border-radius:3px;-moz-box-shadow:0 1px 3px rgba(000,000,000,0.5), inset 0 0 2px rgba(255,255,255,1);-webkit-border-radius:3px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5), inset 0 0 2px #FFF;background-color:#E10098;background-image:0;border:1px solid #DB0075;border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,0.5), inset 0 0 2px #FFF;color:#FFF!important;cursor:pointer;display:block;font-family:robotoregular, Arial, Helvetica, sans-serif;font-size:13px;font-weight:400;padding:9px;text-align:center;text-shadow:-1px -1px #B1005C;}
+section#col_derecha_micuenta fieldset#ajuste_altura{margin:15px 0 0 50px;}
+#micuenta_content .mandatory_fields{float:right;padding:15px 10px 20px 0 !important;}
+section#col_derecha_micuenta fieldset#ajuste_altura legend{font:1em robotomedium, arial, verdana;}
+section#col_derecha_micuenta fieldset#ajuste_altura div.tarjinfo_block{width:450px;}
+section#col_derecha_micuenta fieldset#ajuste_altura div.tarjinfo_block label.mes_label{float:left;font-family:robotomedium, Arial, Helvetica, sans-serif;font-size:.9em;margin-bottom:23px;margin-left:10px;margin-top:10px;position:relative;width:100px;}
+section#col_derecha_micuenta fieldset#ajuste_altura div.tarjinfo_block label.adjust_ext{margin-left:340px;position:absolute;}
+section#col_derecha_micuenta fieldset#ajuste_altura div.tarjinfo_block span.red{padding-right:10px;}
+section#col_derecha_micuenta fieldset#ajuste_altura div#ajuste_izq{margin:0 0 0 520px;position:absolute;width:180px;}
+#col_derecha_micuenta.mc-tarjetas-credito form span{color:#09F;font-family:OpenSansRegular, Arial, Helvetica, sans-serif;font-size:.8em;margin-top:15px;padding:9px 6px;position:absolute;}
+#col_derecha_micuenta.mc-tarjetas-credito .tarjinfo_block label.mes_label span.red{margin-left:10px;padding:0!important;}
+p.font_tipo{position:relative;top:15px;}
+.azul.link_fact_{left:590px;position:relative;top:35px;}
+#col_derecha_micuenta form fieldset>p>legend.title_form_{padding-bottom:10px;padding-top:10px;}
+#col_derecha_micuenta form fieldset>p.explain_data,#col_derecha_micuenta form fieldset>p.explain_data_info_{color:#868686;font-size:.7em;margin-left:-7px;margin-top:-11px;}
+#col_derecha_micuenta form fieldset div.comercial_credito{font:.85em robotomedium, arial, verdana;margin-left:150px;padding:0 0 0 5px;}
+#col_derecha_micuenta form#form_guest_personal_data fieldset div.comercial_credito{font:.85em robotomedium, arial, verdana;margin:-10px 0 0 150px;padding:0 0 0 5px;}
+#col_derecha_micuenta form#form_guest_personal_data fieldset span#span_card3{font:.85em robotomedium, arial, verdana;margin:-10px 0 0 155px;padding-bottom:10px;position:absolute;}
+#col_derecha_micuenta div.nav_micuenta.tres_ a.azul.cancelar_,#col_derecha_micuenta div.nav_micuenta.tres_ input#btn_aceptar.btn_actualizar{float:right;position:inherit;}
+.mc-tarjetas-credito-agregar #col_derecha_micuenta div.nav_micuenta.tres_ input#btn_aceptar.btn_actualizar{padding:5px 20px;position:absolute!important;top:80px;}
+section#col_derecha_micuenta div#_dashed span.linkaction2.right a{font:.8em robotomedium, arial, verdana;text-decoration:none;}
+section#col_derecha_micuenta div#_dashed table{font:.9em robotomedium, arial, verdana;margin:-20px 0 30px -40px;position:inherit;width:650px;}
+section#col_derecha_micuenta div#_dashed table tr{font:.85em robotomedium, arial, verdana;}
+section#col_derecha_micuenta div#_dashed table tr td{text-align:center;}
+div.mejora_tabla table{font-family:robotoregular, arial, sans-serif;margin:0;width:100%;}
+section#col_derecha_micuenta div.mejora_tabla{margin:4px 0 0;}
+section#col_derecha_micuenta div.mejora_tabla table tr:nth-child(2){font-size:11px;font-weight:700;height:50px;}
+section#col_derecha_micuenta div.mejora_tabla table tr:first-child{background:#FFFFFF;border-bottom:2px solid #D6D6D6;font-family:Arial, Helvetica, sans-serif;font-size:13px;font-weight:700;padding:10px 8px;}
+div.nav_micuenta.tres_ a>input.btn_actualizar{position:inherit;}
+fieldset.fieldset_nohay{background:gray;border:1px solid red;width:200px;}
+fieldset.no_cards>p{font:.9em robotomedium, arial, verdana;font-weight:700;padding:20px 0 20px 55px;}
+fieldset.no_cards_adj>p{font:.9em robotomedium, arial, verdana;font-weight:700;margin-top:-50px;padding:0 0 30px 55px;}
+div.margent form#idformvalidacf p:nth-child(1){padding-bottom:8px;}
+div.margent form#idformvalidacf p:nth-child(4){font:.9em robotomedium, arial, verdana;margin:5px 5px 0;padding:8px;}
+div.margent fieldset:nth-child(2) div.nav_micuenta{margin-left:430px;padding:20px 0;}
+div.margent fieldset:nth-child(2) div.nav_micuenta a.azul.regresar_fact_{left:-180px;
+padding:9px;text-decoration:none;top:-32px;width:120px;}
+.terms_adj div.terminos{margin-top:-30px;position:absolute;width:400px;}
+div.nav_micuenta.tres_ div.terminos.terms_adj a.azul,div.nav_micuenta.tres_ div.terminos.terms_adj input#terminos{margin-top:-40px;position:absolute;}
+div.nav_micuenta.tres_ div.terminos.terms_adj input#terminos{margin-right:50px;}
+#col_derecha_micuenta fieldset.consultar_ p.rfc,#col_derecha_micuenta p.font_tipo,#col_derecha_micuenta fieldset.consultar_ p.e-cp{font:.9em robotomedium, arial, verdana;margin:0 0 30px;}
+#col_derecha_micuenta div.nav_micuenta.tres_ a.azul.link_fact_{margin:255px 0 0 -20px;position:absolute;}
+#col_derecha_micuenta fieldset.telefonos_fieldset_{font:.9em robotomedium, arial, verdana;}
+p.telefono_cuenta_,p.nombre_cuenta_,p.servicio_cuenta_{margin-bottom:9px;}
+.telefonos_fieldset_ label{min-width:60px;}
+.mc-cambiar-password a.azul{margin-left:430px;width:100px;}
+.mc-cambiar-password .tres_{left:-305px;}
+div.nav_micuenta.cuatro_{display:inline;width:400px;}
+div.nav_micuenta.cuatro_ input.btn_actualizar{margin:-20px 0 0 250px;position:absolute;width:140px;}
+div.nav_micuenta.cuatro_ a:first-child{margin-left:120px;position:absolute;}
+.nav_micuenta.cinco_{position:relative;width:90%;}
+.nav_micuenta.cinco_ .btn_actualizar{margin-left:600px;}
+.mc-direccion-entrega .nav_micuenta.cinco_ .btn_actualizar{margin:30px 0 0;}
+.mc-direccion-entrega #form_guest_personal_data .nav_micuenta{margin:0 21px 90px;}
+.mc-direccion-entrega .nav_micuenta.cinco_ a.azul.cancelarreset{padding:10px 22px!important;position:absolute!important;right:-2px!important;top:43px!important;}
+.nav_micuenta.cinco_ .terminos{width:400px;}
+.nav_micuenta.cinco_ .terminos a{font-size:1.6em;margin-left:20px;}
+.nav_micuenta.cinco_ a.azul.cancelarreset{margin-left:450px;}
+#col_derecha_micuenta input[type=text]{background:#FFFFF9;margin-left:5px;width:207px;}
+#col_derecha_micuenta select{border:1px solid #CCC;margin-left:5px;padding:5px;width:220px;}
+.editar_direccion{width:175px!important;}
+p.calles input[type=text]{width:92px!important;}
+.tel_lada{width:40px!important;}
+#col_derecha_micuenta fieldset p>input.tel_nromal{width:115px;}
+#col_derecha_micuenta fieldset p.celu_>input.tel_nromal{width:195px;}
+#col_derecha_micuenta fieldset p.email_>input#login{width:160px;}
+#col_derecha_micuenta fieldset p.email_{margin-left:-5px;}
+#col_derecha_micuenta fieldset p.mes select.dia_actualiza{width:62px;}
+#col_derecha_micuenta fieldset p.mes select.mes_actualiza{width:105px;}
+#col_derecha_micuenta fieldset p.mes select.anio_actualiza{width:72px;}
+.nombre_corto{margin-left:-10px;}
+.history-legend{font:1em robotomedium, arial, verdana;font-weight:700;padding:10px 0;}
+.history-wrapper-table{padding:0 20px;width:773px;}
+.history-wrapper-table h3{font-size:12px;font-weight:700;padding:15px 0;width:97%;}
+.history-table{font-family:Arial, Helvetica, sans-serif;width:97%;}
+.history-table th{background:#FFFFFF;border-bottom:2px solid #D6D6D6;font-size:12px;font-weight:700;padding:7px 8px;}
+.history-table tr:nth-child(even){background:#f5f5f5;text-align:center;}
+.history-table td{font-size:11px;padding:8px;}
+.history-table a{color:#3BAFE0;}
+.dp-total-content{color:#ff0000;float:right;margin:10px 40px 10px 0;}
+.dp-total{font-weight:700;padding-left:20px;}
+#micuenta_content .editar_direccion {width: 207px;border: 1px solid #E5E5E5!important;padding: 5px 6px;text-indent: 4px;}
+
+p.calles input#street1,p.calles input#street2{width:167px!important;}
+#col_derecha_micuenta .nav_micuenta .linkaction a.fp_{background-color:white\9\0!important;color:#008FFF!important;margin:0;position:relative;}
+#col_derecha_micuenta.mc-datos-personales #ajuste_checkbox{margin-top:15px;position:absolute;width:400px;z-index:100;}
+#col_derecha_micuenta.mc-datos-personales #ajuste_checkbox a.azul{margin: 0px 0px 0px 20px;padding: 0;text-align: left;text-decoration: none;float: left;width: 500px;}
+#col_derecha_micuenta.mc-datos-personales .nav_micuenta{height:50px;position:absolute;width:730px;z-index:1;}
+#col_derecha_micuenta.mc-datos-personales .nav_micuenta a{margin:-7px 0 0 580px;padding:4px 0!important;}
+#col_derecha_micuenta.mc-tarjetas-credito input.btn_actualizar{margin-left:470px;width:110px;}
+#col_derecha_micuenta.mc-tarjetas-credito span.super-gray{margin:0 0 0 600px;width:90px;}
+#col_derecha_micuenta.mc-tarjetas-credito-agregar p.explain_data_info_{margin-left:165px;}
+#col_derecha_micuenta.mc-tarjetas-credito-agregar a.azul.cancelar_{left:540px;}
+#col_derecha_micuenta.mc-direccion-entrega input.eliminar.super-gray{font-size:.75em;margin-left:600px!important;text-decoration:none;width:90px;}
+#col_derecha_micuenta.mc-direccion-entrega .nav_micuenta form input{margin:15px 0 0 460px !important;width:110px;}
+#col_derecha_micuenta.mc-direccion-entrega .addnew a{margin:-65px 0 0 20px;width:250px;}
+#col_derecha_micuenta.mc-direccion-entrega .terminos a.azul{font-family:robotomedium, arial, sans-serif;font-size:13px;}
+#col_derecha_micuenta.mc-direccion-entrega .nav_micuenta.cinco_ input.btn_actualizar{width:120px;}
+#col_derecha_micuenta.mc-direccion-entrega_new .nav_micuenta.tres_{left:-140px;}
+#col_derecha_micuenta.mc-direccion-entrega_new .nav_micuenta.tres_ a.azul.cancelarreset{left:410px;position:inherit;top:30px;width:110px;}
+.recent_orders input#btn_agregar.btn_actualizar{left:13px;top:84px;}
+.mc-facturacion #col_derecha_micuenta div.margent p:first-child{font-family:robotomedium, arial, sans-serif!important;}
+.recent_orders #col_derecha_micuenta input{display:block; float: left;}
+.recent_orders #_dashed{margin:70px 0 20px 48px;padding-bottom:30px; float:left;}
+.recent_orders .history-wrapper-table h3{clear:both;color:#000;font-family:robotomedium, arial, sans-serif;height:40px;padding:0 45px 0 0;text-indent:-35px;}
+.recent_orders .history-wrapper-table{margin:0;padding:0;}
+.recent_orders #btn_agregar{margin:7px 7px 0;}
+.recent_orders>section#col_derecha_micuenta div#_dashed table{font:.9em robotomedium, arial, verdana;margin:0;width:650px;}
+.recent_orders .right img{margin:0!important;position:absolute;}
+.recent_orders .linkaction a,.recent_orders .linkaction a:hover{background-color:none!important;display:none;}
+.recent_orders .linkaction2.right a,#idbuscardomfiscalesform a,.ordfollowup .link-regresar-sp a{-moz-border-radius:3px;-moz-box-shadow:0 3px 3px rgba(143,143,143,0.2), inset 0 2px 1px rgba(255,255,255,1);-webkit-border-radius:3px;-webkit-box-shadow:0 3px 3px rgba(143,143,143,0.2), inset 0 2px 1px #FFF;background:0 to(#F5F5F5) );border:1px solid #DDD;border-radius:3px;box-shadow:0 3px 3px rgba(223,223,223,0.2), inset 0 2px 1px #FFF;color:#3B3B3E;display:block;font-family:Arial, Helvetica, sans-serif;font-size:11px;padding:8px;text-align:center;text-shadow:0 -1px 0 rgba(0,0,0,0.1), 0 1px 0 #FFF;width:150px;}
+.recent_orders .linkaction2.right a:hover,.ordfollowup .link-regresar-sp a:hover{-moz-box-shadow:0 0 0 rgba(143,143,143,0.2), inset 0 2px 1px rgba(255,255,255,1);-webkit-box-shadow:0 0 0 rgba(143,143,143,0.2), inset 0 2px 1px #FFF;background:0 to(#FBFBFB) );box-shadow:0 0 0 rgba(223,223,223,0.2), inset 0 2px 1px #FFF;text-shadow:0 -1px 0 rgba(0,0,0,0.1), 0 1px 0 #FFF;}
+.ordfollowup{position:relative;}
+#idbuscardomfiscalesform #col_derecha_micuenta div.nav_micuenta.tres_{width:475px;}
+#idbuscardomfiscalesform #col_derecha_micuenta div.nav_micuenta.tres_ a.azul.link_fact_{left:155px;top:-50px;}
+.ordfollowup input#btn_agregar.btn_actualizar{left:0;margin-left:21px;position:absolute;top:74px!important;width:219px;}
+.ordfollowup #col_derecha_micuenta input[type=text]{margin-left:-5px;margin-right:6px;}
+.ordfollowup .margent2 div:nth-child(2){margin-left:10px!important;}
+.ordfollowup .link-regresar-sp{position:absolute;right:19px;top:102px;}
+.ordfollowup #col_derecha_micuenta .margent2 form p{color:#000;font-family:robotomedium, arial, sans-serif;font-size:.95em;}
+.mejora_tabla td{font-size:12px!important;text-align:center;}
+#col_derecha_micuenta .mejora_tabla table tr:nth-child(2) td{font-size:13px;font-weight:400;padding:0;text-align:center;}
+.nav_micuenta a.cancelar_:nth-child(3){padding:4px;position:absolute!important;right:0;top:0;}
+.nav_micuenta a.cancelar_:nth-child(4){margin-right:15px;margin-top:-18px;padding:4px;position:absolute!important;right:-16px;}
+.mc-tarjetas-credito-agregar .nav_micuenta.tres_ #btn_aceptar{left:14px;padding:5px 20px;position:absolute!important;top:22px;}
+.mc-tarjetas-credito-agregar p.t-tarjeta select{margin-bottom:-10px;}
+#col_derecha_micuenta.mc-tarjetas-credito-editar .nav_micuenta.tres_{left:-50px;}
+#col_derecha_micuenta.mc-tarjetas-credito-editar .nav_micuenta.tres_ a.azul.cancelar_{left:-15px;top:28px;}
+#col_derecha_micuenta.mc-tarjetas-credito-editar .nav_micuenta.tres_ a.azul.restau_{left:270px;padding:8px 0;top:43px;}
+#col_derecha_micuenta.mc-datos-facturacion input.btn_actualizar{left:330px;position:absolute;top:205px;}
+#col_derecha_micuenta.mc-telefonos .mejora_tabla tr{height:40px;}
+#col_derecha_micuenta.mc-telefonos .mejora_tabla tr td:first-child input{color:#E10098;text-decoration:none;}
+.mc-tarjetas-credito_new_checkout p.explain_data_info_{margin-left:166px!important;}
+#col_derecha_micuenta.mc-tarjetas-credito_new_checkout input.editar_direccion{margin:20px 0;}
+.mc-tarjetas-credito_new_checkout .nav_micuenta.cuatro_ input.btn_actualizar{left:280px;top:35px;}
+.mc-tarjetas-credito_new_checkout .nav_micuenta.cuatro_ a.azul.cancelarreset{width:110px;}
+.mc-tarjetas-credito_new_checkout .nav_micuenta.cuatro_ a:first-child{left:255px;}
+.mc-tarjetas-credito_new_checkout .nav_micuenta.cuatro_ a:nth-child(2){margin-left:220px;}
+#col_derecha_micuenta.mc-agregar-telefono .nav_micuenta input#btn_agregar{left:555px;top:155px;}
+#col_derecha_micuenta.mc-agregar-telefono .nav_micuenta a.azul.cancelar_.reset_.fp_{left:0;top:155px;}
+#col_derecha_micuenta.limp_adj .nav_micuenta.tres_{left:-55px;}
+#col_derecha_micuenta.limp_adj .nav_micuenta.tres_ a.azul.cancelarreset{margin-left:400px;width:110px;}
+#col_derecha_micuenta.limp_adj .nav_micuenta.tres_ input.btn_actualizar{top:0;}
+.print-rc{font-weight:700;width:150px;}
+.linkaction-rc{bottom:0;left:-35px;position:absolute;}
+.mc-cambiar-contrasenia a.azul.cancelar_.reset_.fp_{left:-20px;top:29px;}
+*,.intereses_checkbox label{margin:0;padding:0;}
+.orfulup .margent2,.recent_orders .margent2,.ordfollowup .margent2{margin-top:10px;}
+.orfulup .margent2 div:nth-child(1) img,.comercial_credito,#micuenta .explicacion-micuenta,#micuenta .ribbon-micuenta,#micuenta #col_derecha_micuenta div.nav_micuenta.tres_ a.azul.cancelar_,.btn_form_mis_tarjetas a,.recent_orders #micuenta,.recent_orders .margent2 div:nth-child(1) img,fieldset a#cp_no,.ordfollowup .margent2 div:nth-child(1) img,.mc-tarjetas-credito_new_checkout form fieldset#ajuste_altura legend > span.red{display:none;}
+.orfulup .margent2 div:nth-child(2),.recent_orders .margent2 div:nth-child(2){margin:0;}
+.orfulup #col_derecha_micuenta .margent2 form p,.recent_orders #col_derecha_micuenta .margent2 form p{color:#000;font-family:robotobold, arial, sans-serif;font-size:1em;}
+.orfulup .margent2 span img,.recent_orders .margent2 span img{left:250px;position:absolute;top:61px;}
+.orfulup .linkaction a:hover,.cancelar_.reset_{text-decoration:none;}
+.cardi p,.cardi{color:#565656;font:1em robotomedium, Arial, sans-serif;font-weight:700;margin-left:10px;}
+#col_derecha_micuenta .margent div input#acepto_terminos,#col_derecha_micuenta.mc-telefonos .mejora_tabla tr td:first-child{margin-top:15px;}
+#col_derecha_micuenta .margent2 form p,#col_derecha_micuenta form fieldset>p>label.label_left_,#col_derecha_micuenta form fieldset>p.explain_data,#col_derecha_micuenta form fieldset>p.explain_data_info_{font:.8em robotomedium, arial, verdana;}
+#ajuste_over,#col_derecha_micuenta.mc-direccion-entrega select#direccion_entre,section#col_derecha_micuenta div#_dashed table tr.grayback td:first-child,.nav_micuenta.cinco_ *,.ordfollowup span:nth-child(3){position:absolute;}
+#form_guest_personal_data .mes_expira,#form_guest_personal_data .anio_expira,#form_guest_personal_data .mes_expira,#form_guest_pay_method .anio_expira{text-align:center;width:60px;}
+.nav_micuenta.tres_ a.azul.cancelar_:hover,.history-table a:hover,#col_derecha_micuenta.mc-datos-personales #ajuste_checkbox a:hover,#col_derecha_micuenta.mc-telefonos .mejora_tabla tr td:first-child input:hover{text-decoration:underline;}
+input.btn_actualizar:hover,#col_derecha_micuenta.mc-direccion-entrega .addnew a:hover,section#col_derecha_micuenta fieldset#ajuste_altura div#ajuste_izq a:hover,.addnew a:hover{background-color:#E10098;background-image:0;color:#FFF!important;text-shadow:-1px -1px #B1005C;}
+#form_guest_personal_data p textarea#info_adicional,#col_derecha_micuenta.mc-telefonos a.azul.cancelar_.reset_.fp_{margin-bottom:20px;}
+#micuenta_content #form_guest_personal_data fieldset,#micuenta_content section#col_derecha_micuenta fieldset#ajuste_altura{margin:0!important;}
+.up_shipping_info #form_guest_personal_data label,.margen_adj p:nth-child(odd){margin-bottom:10px;}
+fieldset.telefonos_fieldset_ .nav_micuenta,.margent2 span img{float:right;}
+#form_guest_personal_data fieldset:nth-child(2) div,.margent div:nth-child(4) span,aside{float:left;}
+.dia_actualiza,.e-cp input#cp{width:60px;}
+#opciones input,#opciones2 input{left:-10px;position:relative;top:-18px;}
+.margent2,#col_derecha_micuenta fieldset.telefonos_fieldset_ .nav_micuenta{margin-top:30px;}
+.margen_adj2,#col_derecha_micuenta #form_guest_personal_data fieldset .mes.alinea_{margin-left:40px;}
+.nav_micuenta.tres_ #btn_aceptar,.nav_micuenta.tres_ input.btn_actualizar{float:right;padding:5px 20px;position:relative;top:30px;}
+.label_left_ span,.form_register_ p label span,.ie10 .ajuste_checkbox a.azul{color:red;}
+.telefono_cuenta_,.servicio_cuenta_,.acepto_terminos_{display:inline-block;}
+.telefono_cuenta_ label,.nombre_cuenta_ label,.servicio_cuenta_ label,.monto_cuenta_ label{display:inline-block;font-size:12px;}
+#col_derecha_micuenta p.font_tipo,.history-table tr td:nth-child(4){font-weight:700;}
+#col_derecha_micuenta.mc-direccion-entrega .terminos,#col_derecha_micuenta.mc-direccion-entrega .terminos input#terminos{top:5px;}
+.input_adjustm {
+font-size: 12px !important;
+text-indent: 4px !important;
+-moz-box-shadow: inset 0 1px 1px #AAA;
+box-shadow: inset 0 1px 5px #AAA !important;
+-moz-border-radius: 4px;
+vertical-align: middle !important;
+background-color: #FDFDF7 !important;
+-webkit-border-radius: 5px !important;
+-moz-border-radius: 5px;
+border-radius: 5px !important;
+}
+@media screen\0 {
+#col_derecha_micuenta.mc-telefonos .nav_micuenta .linkaction a.azul.cancelar_.reset_.fp_{background:none;}
+}
+
+.regbox.left-forgot {
+    margin: 20px 0px!important;
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: block;
+    height: auto!important;
+    min-height: auto!important;
+}
